@@ -2,8 +2,8 @@ package sqlancer.sqlite3;
 
 import java.util.Arrays;
 
-import sqlancer.Randomly;
-import sqlancer.common.visitor.ToStringVisitor;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.visitor.ToStringVisitor;
 import sqlancer.sqlite3.ast.SQLite3Aggregate;
 import sqlancer.sqlite3.ast.SQLite3Aggregate.SQLite3AggregateFunction;
 import sqlancer.sqlite3.ast.SQLite3Case.CasePair;

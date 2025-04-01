@@ -3,8 +3,8 @@ package sqlancer.oceanbase.ast;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseDataType;
 import sqlancer.oceanbase.ast.OceanBaseCastOperation.CastType;
 

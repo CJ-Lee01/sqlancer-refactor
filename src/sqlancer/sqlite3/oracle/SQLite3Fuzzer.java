@@ -1,8 +1,8 @@
 package sqlancer.sqlite3.oracle;
 
-import sqlancer.Randomly;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.sqlite3.SQLite3GlobalState;
 import sqlancer.sqlite3.SQLite3Visitor;
 

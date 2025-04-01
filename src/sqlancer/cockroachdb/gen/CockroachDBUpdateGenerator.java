@@ -2,15 +2,15 @@ package sqlancer.cockroachdb.gen;
 
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cockroachdb.CockroachDBErrors;
 import sqlancer.cockroachdb.CockroachDBProvider.CockroachDBGlobalState;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBColumn;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBDataType;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBTable;
 import sqlancer.cockroachdb.CockroachDBVisitor;
-import sqlancer.common.gen.AbstractUpdateGenerator;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.gen.AbstractUpdateGenerator;
+import sqlancer.base.common.query.SQLQueryAdapter;
 
 public final class CockroachDBUpdateGenerator extends AbstractUpdateGenerator<CockroachDBColumn> {
 

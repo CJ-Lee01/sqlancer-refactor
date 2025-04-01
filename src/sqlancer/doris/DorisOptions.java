@@ -6,7 +6,7 @@ import java.util.List;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 
-import sqlancer.DBMSSpecificOptions;
+import sqlancer.base.DBMSSpecificOptions;
 
 @Parameters(commandDescription = "Apache Doris (default port: " + DorisOptions.DEFAULT_PORT + ", default host: "
         + DorisOptions.DEFAULT_HOST + ")")

@@ -2,10 +2,10 @@ package sqlancer.clickhouse.ast;
 
 import com.clickhouse.client.ClickHouseDataType;
 
-import sqlancer.LikeImplementationHelper;
-import sqlancer.Randomly;
+import sqlancer.base.LikeImplementationHelper;
+import sqlancer.base.Randomly;
 import sqlancer.clickhouse.ast.constant.ClickHouseCreateConstant;
-import sqlancer.common.visitor.BinaryOperation;
+import sqlancer.base.common.visitor.BinaryOperation;
 
 public class ClickHouseBinaryComparisonOperation extends ClickHouseExpression
         implements BinaryOperation<ClickHouseExpression> {

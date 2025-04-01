@@ -3,10 +3,10 @@ package sqlancer.yugabyte.ycql.test;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.yugabyte.ycql.YCQLProvider;
 import sqlancer.yugabyte.ycql.YCQLToStringVisitor;
 import sqlancer.yugabyte.ycql.gen.YCQLRandomQuerySynthesizer;

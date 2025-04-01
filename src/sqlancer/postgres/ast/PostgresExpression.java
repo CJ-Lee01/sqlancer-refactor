@@ -1,6 +1,6 @@
 package sqlancer.postgres.ast;
 
-import sqlancer.common.ast.newast.Expression;
+import sqlancer.base.common.ast.newast.Expression;
 import sqlancer.postgres.PostgresSchema.PostgresColumn;
 import sqlancer.postgres.PostgresSchema.PostgresDataType;
 

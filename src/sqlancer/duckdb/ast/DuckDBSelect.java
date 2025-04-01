@@ -3,8 +3,8 @@ package sqlancer.duckdb.ast;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 import sqlancer.duckdb.DuckDBSchema.DuckDBColumn;
 import sqlancer.duckdb.DuckDBSchema.DuckDBTable;
 import sqlancer.duckdb.DuckDBToStringVisitor;

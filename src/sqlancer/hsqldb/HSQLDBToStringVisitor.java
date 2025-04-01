@@ -1,6 +1,6 @@
 package sqlancer.hsqldb;
 
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.hsqldb.ast.HSQLDBConstant;
 import sqlancer.hsqldb.ast.HSQLDBExpression;
 import sqlancer.hsqldb.ast.HSQLDBJoin;

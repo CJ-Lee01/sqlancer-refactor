@@ -1,6 +1,6 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.common.ast.BinaryNode;
+import sqlancer.base.common.ast.BinaryNode;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 
 public class MaterializeConcatOperation extends BinaryNode<MaterializeExpression> implements MaterializeExpression {

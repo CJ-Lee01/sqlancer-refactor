@@ -2,8 +2,8 @@ package sqlancer.sqlite3.ast;
 
 import java.util.List;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
 import sqlancer.sqlite3.SQLite3GlobalState;
 import sqlancer.sqlite3.SQLite3Provider;
 import sqlancer.sqlite3.gen.SQLite3ExpressionGenerator;

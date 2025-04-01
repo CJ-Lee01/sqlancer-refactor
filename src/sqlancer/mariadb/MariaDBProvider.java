@@ -9,15 +9,15 @@ import java.util.List;
 
 import com.google.auto.service.AutoService;
 
-import sqlancer.DatabaseProvider;
-import sqlancer.IgnoreMeException;
-import sqlancer.MainOptions;
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.SQLGlobalState;
-import sqlancer.SQLProviderAdapter;
-import sqlancer.common.DBMSCommon;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.MainOptions;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.SQLGlobalState;
+import sqlancer.base.SQLProviderAdapter;
+import sqlancer.base.common.DBMSCommon;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.mariadb.MariaDBProvider.MariaDBGlobalState;
 import sqlancer.mariadb.gen.MariaDBIndexGenerator;
 import sqlancer.mariadb.gen.MariaDBInsertGenerator;

@@ -5,21 +5,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.OracleFactory;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.OracleFactory;
 import sqlancer.cockroachdb.gen.CockroachDBExpressionGenerator;
 import sqlancer.cockroachdb.oracle.tlp.CockroachDBTLPAggregateOracle;
 import sqlancer.cockroachdb.oracle.tlp.CockroachDBTLPDistinctOracle;
 import sqlancer.cockroachdb.oracle.tlp.CockroachDBTLPExtendedWhereOracle;
 import sqlancer.cockroachdb.oracle.tlp.CockroachDBTLPGroupByOracle;
 import sqlancer.cockroachdb.oracle.tlp.CockroachDBTLPHavingOracle;
-import sqlancer.common.oracle.CERTOracle;
-import sqlancer.common.oracle.CompositeTestOracle;
-import sqlancer.common.oracle.NoRECOracle;
-import sqlancer.common.oracle.TLPWhereOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLancerResultSet;
+import sqlancer.base.common.oracle.CERTOracle;
+import sqlancer.base.common.oracle.CompositeTestOracle;
+import sqlancer.base.common.oracle.NoRECOracle;
+import sqlancer.base.common.oracle.TLPWhereOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLancerResultSet;
 
 public enum CockroachDBOracleFactory implements OracleFactory<CockroachDBProvider.CockroachDBGlobalState> {
     NOREC {

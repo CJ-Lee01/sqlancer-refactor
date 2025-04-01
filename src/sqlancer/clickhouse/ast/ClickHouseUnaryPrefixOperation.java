@@ -2,10 +2,10 @@ package sqlancer.clickhouse.ast;
 
 import com.clickhouse.client.ClickHouseDataType;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.clickhouse.ast.constant.ClickHouseCreateConstant;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.visitor.UnaryOperation;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.visitor.UnaryOperation;
 
 public class ClickHouseUnaryPrefixOperation extends ClickHouseExpression
         implements UnaryOperation<ClickHouseExpression> {

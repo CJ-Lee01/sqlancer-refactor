@@ -2,10 +2,10 @@ package sqlancer.cockroachdb.ast;
 
 import java.util.Arrays;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBColumn;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBTable;
-import sqlancer.common.ast.newast.Join;
+import sqlancer.base.common.ast.newast.Join;
 
 public class CockroachDBJoin
         implements CockroachDBExpression, Join<CockroachDBExpression, CockroachDBTable, CockroachDBColumn> {

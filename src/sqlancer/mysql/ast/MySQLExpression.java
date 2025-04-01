@@ -1,6 +1,6 @@
 package sqlancer.mysql.ast;
 
-import sqlancer.common.ast.newast.Expression;
+import sqlancer.base.common.ast.newast.Expression;
 import sqlancer.mysql.MySQLSchema.MySQLColumn;
 
 public interface MySQLExpression extends Expression<MySQLColumn> {

@@ -7,7 +7,7 @@ import java.util.Iterator;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 
 public class CnosDBResultSet {
     private final Iterator<CSVRecord> records;

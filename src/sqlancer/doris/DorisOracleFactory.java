@@ -4,12 +4,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.CompositeTestOracle;
-import sqlancer.common.oracle.NoRECOracle;
-import sqlancer.common.oracle.TLPWhereOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.CompositeTestOracle;
+import sqlancer.base.common.oracle.NoRECOracle;
+import sqlancer.base.common.oracle.TLPWhereOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
 import sqlancer.doris.gen.DorisNewExpressionGenerator;
 import sqlancer.doris.oracle.DorisPivotedQuerySynthesisOracle;
 import sqlancer.doris.oracle.tlp.DorisQueryPartitioningAggregateTester;

@@ -1,6 +1,6 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.common.ast.newast.Expression;
+import sqlancer.base.common.ast.newast.Expression;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLColumn;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 

@@ -2,7 +2,7 @@ package sqlancer.cockroachdb.ast;
 
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class CockroachDBMultiValuedComparison implements CockroachDBExpression {
 

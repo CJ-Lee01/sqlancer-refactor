@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 
 import com.clickhouse.client.ClickHouseDataType;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.clickhouse.ClickHouseProvider.ClickHouseGlobalState;
 import sqlancer.clickhouse.ClickHouseSchema;
 import sqlancer.clickhouse.ClickHouseSchema.ClickHouseColumn;
@@ -31,10 +31,10 @@ import sqlancer.clickhouse.ast.ClickHouseUnaryPostfixOperation.ClickHouseUnaryPo
 import sqlancer.clickhouse.ast.ClickHouseUnaryPrefixOperation;
 import sqlancer.clickhouse.ast.ClickHouseUnaryPrefixOperation.ClickHouseUnaryPrefixOperator;
 import sqlancer.clickhouse.ast.constant.ClickHouseCreateConstant;
-import sqlancer.common.gen.NoRECGenerator;
-import sqlancer.common.gen.TLPWhereGenerator;
-import sqlancer.common.gen.TypedExpressionGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.common.gen.NoRECGenerator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
+import sqlancer.base.common.gen.TypedExpressionGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 
 public class ClickHouseExpressionGenerator
         extends TypedExpressionGenerator<ClickHouseExpression, ClickHouseColumn, ClickHouseLancerDataType> implements

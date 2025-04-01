@@ -1,6 +1,6 @@
 package sqlancer.oceanbase;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.oceanbase.ast.OceanBaseAggregate;
 import sqlancer.oceanbase.ast.OceanBaseBinaryComparisonOperation;
 import sqlancer.oceanbase.ast.OceanBaseBinaryLogicalOperation;

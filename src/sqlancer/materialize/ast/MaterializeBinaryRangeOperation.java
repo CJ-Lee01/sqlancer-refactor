@@ -1,8 +1,8 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryNode;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryNode;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 
 public class MaterializeBinaryRangeOperation extends BinaryNode<MaterializeExpression>

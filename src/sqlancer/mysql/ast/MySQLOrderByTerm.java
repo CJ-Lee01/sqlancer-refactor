@@ -1,6 +1,6 @@
 package sqlancer.mysql.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class MySQLOrderByTerm implements MySQLExpression {
 

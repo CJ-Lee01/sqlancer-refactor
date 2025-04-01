@@ -5,11 +5,11 @@ import java.io.StringWriter;
 
 import sqlancer.cnosdb.query.CnosDBOtherQuery;
 import sqlancer.cnosdb.query.CnosDBQueryAdapter;
-import sqlancer.common.log.Loggable;
-import sqlancer.common.log.LoggableFactory;
-import sqlancer.common.log.LoggedString;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.Query;
+import sqlancer.base.common.log.Loggable;
+import sqlancer.base.common.log.LoggableFactory;
+import sqlancer.base.common.log.LoggedString;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.Query;
 
 public class CnosDBLoggableFactory extends LoggableFactory {
 

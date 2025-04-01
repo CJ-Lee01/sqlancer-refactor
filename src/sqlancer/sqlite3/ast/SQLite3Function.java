@@ -1,7 +1,7 @@
 package sqlancer.sqlite3.ast;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
 import sqlancer.sqlite3.ast.SQLite3Constant.SQLite3TextConstant;
 import sqlancer.sqlite3.schema.SQLite3DataType;
 import sqlancer.sqlite3.schema.SQLite3Schema.SQLite3Column.SQLite3CollateSequence;

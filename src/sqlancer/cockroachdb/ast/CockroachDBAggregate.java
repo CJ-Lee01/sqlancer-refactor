@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBDataType;
 
 public class CockroachDBAggregate implements CockroachDBExpression {

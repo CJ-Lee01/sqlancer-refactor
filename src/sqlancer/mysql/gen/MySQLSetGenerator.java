@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import sqlancer.MainOptions;
-import sqlancer.Randomly;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.MainOptions;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.mysql.MySQLBugs;
 import sqlancer.mysql.MySQLGlobalState;
 

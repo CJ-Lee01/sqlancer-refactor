@@ -3,12 +3,12 @@ package sqlancer.mysql;
 import java.sql.SQLException;
 import java.util.Optional;
 
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.CERTOracle;
-import sqlancer.common.oracle.TLPWhereOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLancerResultSet;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.CERTOracle;
+import sqlancer.base.common.oracle.TLPWhereOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLancerResultSet;
 import sqlancer.mysql.gen.MySQLExpressionGenerator;
 import sqlancer.mysql.oracle.MySQLDQPOracle;
 import sqlancer.mysql.oracle.MySQLFuzzer;

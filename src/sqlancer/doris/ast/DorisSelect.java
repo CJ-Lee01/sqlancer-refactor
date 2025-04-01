@@ -3,9 +3,9 @@ package sqlancer.doris.ast;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 import sqlancer.doris.DorisSchema.DorisColumn;
 import sqlancer.doris.DorisSchema.DorisTable;
 import sqlancer.doris.visitor.DorisToStringVisitor;

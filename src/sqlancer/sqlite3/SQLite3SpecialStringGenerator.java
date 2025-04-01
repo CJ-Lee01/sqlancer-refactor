@@ -1,6 +1,6 @@
 package sqlancer.sqlite3;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public final class SQLite3SpecialStringGenerator {
 

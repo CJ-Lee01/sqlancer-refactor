@@ -1,7 +1,7 @@
 package sqlancer.hsqldb.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.ast.newast.NewBinaryOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.newast.NewBinaryOperatorNode;
 
 public class HSQLDBBinaryOperation extends NewBinaryOperatorNode<HSQLDBExpression> implements HSQLDBExpression {
     public HSQLDBBinaryOperation(HSQLDBExpression left, HSQLDBExpression right, Operator op) {

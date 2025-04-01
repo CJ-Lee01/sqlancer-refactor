@@ -1,6 +1,6 @@
 package sqlancer.sqlite3.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.sqlite3.schema.SQLite3Schema.SQLite3Column.SQLite3CollateSequence;
 
 public class SQLite3SetClause extends SQLite3Expression {

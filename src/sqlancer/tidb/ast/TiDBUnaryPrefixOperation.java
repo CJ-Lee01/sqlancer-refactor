@@ -1,8 +1,8 @@
 package sqlancer.tidb.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.ast.UnaryOperatorNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.UnaryOperatorNode;
 import sqlancer.tidb.ast.TiDBUnaryPrefixOperation.TiDBUnaryPrefixOperator;
 
 public class TiDBUnaryPrefixOperation extends UnaryOperatorNode<TiDBExpression, TiDBUnaryPrefixOperator>

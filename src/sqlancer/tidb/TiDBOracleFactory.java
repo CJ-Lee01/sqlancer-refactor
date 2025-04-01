@@ -5,13 +5,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.CERTOracle;
-import sqlancer.common.oracle.CompositeTestOracle;
-import sqlancer.common.oracle.TLPWhereOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLancerResultSet;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.CERTOracle;
+import sqlancer.base.common.oracle.CompositeTestOracle;
+import sqlancer.base.common.oracle.TLPWhereOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLancerResultSet;
 import sqlancer.tidb.oracle.TiDBDQPOracle;
 import sqlancer.tidb.oracle.TiDBTLPHavingOracle;
 

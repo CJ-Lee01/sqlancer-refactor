@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 import org.junit.jupiter.api.Test;
 
-import sqlancer.Main;
+import sqlancer.base.Main;
 import sqlancer.mariadb.MariaDBSchema;
 import sqlancer.mariadb.ast.MariaDBColumnName;
 import sqlancer.mariadb.ast.MariaDBSelectStatement;

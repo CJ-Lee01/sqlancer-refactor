@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBColumn;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBTable;
 import sqlancer.cockroachdb.CockroachDBVisitor;
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 
 public class CockroachDBSelect extends SelectBase<CockroachDBExpression> implements CockroachDBExpression,
         Select<CockroachDBJoin, CockroachDBExpression, CockroachDBTable, CockroachDBColumn> {

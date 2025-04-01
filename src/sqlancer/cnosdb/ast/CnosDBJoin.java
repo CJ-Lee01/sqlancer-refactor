@@ -1,6 +1,6 @@
 package sqlancer.cnosdb.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
 
 public class CnosDBJoin implements CnosDBExpression {

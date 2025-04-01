@@ -3,9 +3,9 @@ package sqlancer.databend.ast;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.Join;
-import sqlancer.common.ast.newast.TableReferenceNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.Join;
+import sqlancer.base.common.ast.newast.TableReferenceNode;
 import sqlancer.databend.DatabendProvider.DatabendGlobalState;
 import sqlancer.databend.DatabendSchema;
 import sqlancer.databend.DatabendSchema.DatabendColumn;

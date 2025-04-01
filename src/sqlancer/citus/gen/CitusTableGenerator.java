@@ -1,6 +1,6 @@
 package sqlancer.citus.gen;
 
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.postgres.PostgresGlobalState;
 import sqlancer.postgres.PostgresSchema;
 import sqlancer.postgres.gen.PostgresTableGenerator;

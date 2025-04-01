@@ -3,7 +3,7 @@ package sqlancer.oceanbase;
 
 import java.sql.SQLException;
 
-import sqlancer.SQLGlobalState;
+import sqlancer.base.SQLGlobalState;
 
 public class OceanBaseGlobalState extends SQLGlobalState<OceanBaseOptions, OceanBaseSchema> {
 

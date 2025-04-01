@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBCompoundDataType;
 import sqlancer.cnosdb.CnosDBExpectedError;
 import sqlancer.cnosdb.CnosDBGlobalState;
@@ -29,7 +29,7 @@ import sqlancer.cnosdb.client.CnosDBResultSet;
 import sqlancer.cnosdb.gen.CnosDBExpressionGenerator;
 import sqlancer.cnosdb.oracle.tlp.CnosDBTLPBase;
 import sqlancer.cnosdb.query.CnosDBSelectQuery;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.common.oracle.TestOracle;
 
 public class CnosDBNoRECOracle extends CnosDBNoRECBase implements TestOracle<CnosDBGlobalState> {
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import sqlancer.citus.CitusBugs;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.common.query.ExpectedErrors;
 
 public final class CitusCommon {
 

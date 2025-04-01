@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.beust.jcommander.Parameters;
 
-import sqlancer.DBMSSpecificOptions;
+import sqlancer.base.DBMSSpecificOptions;
 
 @Parameters(commandDescription = "H2")
 public class H2Options implements DBMSSpecificOptions<H2OracleFactory> {

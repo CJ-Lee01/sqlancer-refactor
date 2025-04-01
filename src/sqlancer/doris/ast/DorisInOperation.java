@@ -2,7 +2,7 @@ package sqlancer.doris.ast;
 
 import java.util.List;
 
-import sqlancer.common.ast.newast.NewInOperatorNode;
+import sqlancer.base.common.ast.newast.NewInOperatorNode;
 import sqlancer.doris.DorisSchema;
 
 public class DorisInOperation extends NewInOperatorNode<DorisExpression> implements DorisExpression {

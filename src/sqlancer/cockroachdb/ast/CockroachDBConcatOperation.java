@@ -1,6 +1,6 @@
 package sqlancer.cockroachdb.ast;
 
-import sqlancer.common.ast.BinaryNode;
+import sqlancer.base.common.ast.BinaryNode;
 
 public class CockroachDBConcatOperation extends BinaryNode<CockroachDBExpression> implements CockroachDBExpression {
 

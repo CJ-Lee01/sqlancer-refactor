@@ -1,7 +1,7 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 
 public class YSQLPrefixOperation implements YSQLExpression {

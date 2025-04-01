@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 import sqlancer.datafusion.DataFusionSchema.DataFusionColumn;
 import sqlancer.datafusion.DataFusionSchema.DataFusionTable;
 import sqlancer.datafusion.DataFusionToStringVisitor;

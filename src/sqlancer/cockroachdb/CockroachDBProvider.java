@@ -11,14 +11,14 @@ import java.util.stream.Collectors;
 
 import com.google.auto.service.AutoService;
 
-import sqlancer.DatabaseProvider;
-import sqlancer.IgnoreMeException;
-import sqlancer.Main.QueryManager;
-import sqlancer.MainOptions;
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.SQLGlobalState;
-import sqlancer.SQLProviderAdapter;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Main.QueryManager;
+import sqlancer.base.MainOptions;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.SQLGlobalState;
+import sqlancer.base.SQLProviderAdapter;
 import sqlancer.cockroachdb.CockroachDBProvider.CockroachDBGlobalState;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBTable;
 import sqlancer.cockroachdb.gen.CockroachDBCommentOnGenerator;
@@ -36,10 +36,10 @@ import sqlancer.cockroachdb.gen.CockroachDBTableGenerator;
 import sqlancer.cockroachdb.gen.CockroachDBTruncateGenerator;
 import sqlancer.cockroachdb.gen.CockroachDBUpdateGenerator;
 import sqlancer.cockroachdb.gen.CockroachDBViewGenerator;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
-import sqlancer.common.query.SQLQueryProvider;
-import sqlancer.common.query.SQLancerResultSet;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.SQLQueryProvider;
+import sqlancer.base.common.query.SQLancerResultSet;
 
 @AutoService(DatabaseProvider.class)
 public class CockroachDBProvider extends SQLProviderAdapter<CockroachDBGlobalState, CockroachDBOptions> {

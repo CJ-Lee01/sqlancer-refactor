@@ -3,10 +3,10 @@ package sqlancer.cnosdb.ast;
 import java.util.Collections;
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBTable;
-import sqlancer.common.ast.SelectBase;
+import sqlancer.base.common.ast.SelectBase;
 
 public class CnosDBSelect extends SelectBase<CnosDBExpression> implements CnosDBExpression {
 

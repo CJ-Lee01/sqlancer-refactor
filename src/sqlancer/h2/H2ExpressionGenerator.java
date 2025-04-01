@@ -3,11 +3,11 @@ package sqlancer.h2;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.gen.TLPWhereGenerator;
-import sqlancer.common.gen.UntypedExpressionGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
+import sqlancer.base.common.gen.UntypedExpressionGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 import sqlancer.h2.H2Provider.H2GlobalState;
 import sqlancer.h2.H2Schema.H2Column;
 import sqlancer.h2.H2Schema.H2CompositeDataType;

@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import sqlancer.Main;
+import sqlancer.base.Main;
 
 public class TestHSQLDBNoREC {
     @Test

@@ -1,7 +1,7 @@
 package sqlancer.datafusion.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.ast.newast.NewBinaryOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.newast.NewBinaryOperatorNode;
 
 public class DataFusionBinaryOperation extends NewBinaryOperatorNode<DataFusionExpression>
         implements DataFusionExpression {

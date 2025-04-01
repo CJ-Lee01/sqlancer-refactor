@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.FunctionNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.FunctionNode;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 import sqlancer.yugabyte.ysql.ast.YSQLAggregate.YSQLAggregateFunction;
 

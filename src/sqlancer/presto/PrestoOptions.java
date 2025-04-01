@@ -5,7 +5,7 @@ import java.util.List;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 
-import sqlancer.DBMSSpecificOptions;
+import sqlancer.base.DBMSSpecificOptions;
 
 @Parameters(commandDescription = "Presto")
 public class PrestoOptions implements DBMSSpecificOptions<PrestoOracleFactory> {

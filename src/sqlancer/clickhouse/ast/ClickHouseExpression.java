@@ -2,10 +2,10 @@ package sqlancer.clickhouse.ast;
 
 import sqlancer.clickhouse.ClickHouseSchema.ClickHouseColumn;
 import sqlancer.clickhouse.ClickHouseSchema.ClickHouseTable;
-import sqlancer.common.ast.newast.Expression;
-import sqlancer.common.ast.newast.Join;
-import sqlancer.common.visitor.BinaryOperation;
-import sqlancer.common.visitor.UnaryOperation;
+import sqlancer.base.common.ast.newast.Expression;
+import sqlancer.base.common.ast.newast.Join;
+import sqlancer.base.common.visitor.BinaryOperation;
+import sqlancer.base.common.visitor.UnaryOperation;
 
 public abstract class ClickHouseExpression implements Expression<ClickHouseColumn> {
 

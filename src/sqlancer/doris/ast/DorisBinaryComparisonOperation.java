@@ -1,7 +1,7 @@
 package sqlancer.doris.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewBinaryOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewBinaryOperatorNode;
 import sqlancer.doris.DorisSchema.DorisDataType;
 
 public class DorisBinaryComparisonOperation extends NewBinaryOperatorNode<DorisExpression> implements DorisExpression {

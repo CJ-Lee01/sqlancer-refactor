@@ -1,7 +1,7 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.LikeImplementationHelper;
-import sqlancer.common.ast.BinaryNode;
+import sqlancer.base.LikeImplementationHelper;
+import sqlancer.base.common.ast.BinaryNode;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 
 public class MaterializeLikeOperation extends BinaryNode<MaterializeExpression> implements MaterializeExpression {

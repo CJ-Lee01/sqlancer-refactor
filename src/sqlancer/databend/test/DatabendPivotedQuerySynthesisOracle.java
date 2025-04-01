@@ -4,11 +4,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.common.oracle.PivotedQuerySynthesisBase;
-import sqlancer.common.query.Query;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.common.oracle.PivotedQuerySynthesisBase;
+import sqlancer.base.common.query.Query;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.databend.DatabendErrors;
 import sqlancer.databend.DatabendExpectedValueVisitor;
 import sqlancer.databend.DatabendProvider.DatabendGlobalState;

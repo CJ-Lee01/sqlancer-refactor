@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.ComparatorHelper;
+import sqlancer.base.ComparatorHelper;
 import sqlancer.questdb.QuestDBErrors;
 import sqlancer.questdb.QuestDBProvider.QuestDBGlobalState;
 import sqlancer.questdb.QuestDBToStringVisitor;

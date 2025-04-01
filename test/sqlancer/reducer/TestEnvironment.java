@@ -1,7 +1,15 @@
 package sqlancer.reducer;
 
-import sqlancer.*;
-import sqlancer.common.query.Query;
+import sqlancer.base.ASTBasedReducer;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.Main;
+import sqlancer.base.MainOptions;
+import sqlancer.base.Reducer;
+import sqlancer.base.Reproducer;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.StateToReproduce;
+import sqlancer.base.StatementReducer;
+import sqlancer.base.common.query.Query;
 import sqlancer.reducer.VirtualDB.VirtualDBGlobalState;
 import sqlancer.reducer.VirtualDB.VirtualDBProvider;
 import sqlancer.reducer.VirtualDB.VirtualDBQuery;

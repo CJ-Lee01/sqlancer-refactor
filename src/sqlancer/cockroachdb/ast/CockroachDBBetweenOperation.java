@@ -1,6 +1,6 @@
 package sqlancer.cockroachdb.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class CockroachDBBetweenOperation implements CockroachDBExpression {
 

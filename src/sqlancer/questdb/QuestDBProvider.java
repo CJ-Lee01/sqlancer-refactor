@@ -8,16 +8,17 @@ import java.util.Properties;
 
 import com.google.auto.service.AutoService;
 
-import sqlancer.AbstractAction;
-import sqlancer.DatabaseProvider;
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.SQLGlobalState;
-import sqlancer.SQLProviderAdapter;
-import sqlancer.StatementExecutor;
-import sqlancer.common.query.SQLQueryAdapter;
-import sqlancer.common.query.SQLQueryProvider;
+import sqlancer.base.AbstractAction;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.SQLGlobalState;
+import sqlancer.base.SQLProviderAdapter;
+import sqlancer.base.StatementExecutor;
+import sqlancer.base.MainOptions;
+import sqlancer.base.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.SQLQueryProvider;
 import sqlancer.questdb.QuestDBProvider.QuestDBGlobalState;
 import sqlancer.questdb.gen.QuestDBAlterIndexGenerator;
 import sqlancer.questdb.gen.QuestDBInsertGenerator;
@@ -101,7 +102,7 @@ public class QuestDBProvider extends SQLProviderAdapter<QuestDBGlobalState, Ques
         if (host == null) {
             host = QuestDBOptions.DEFAULT_HOST;
         }
-        if (port == sqlancer.MainOptions.NO_SET_PORT) {
+        if (port == MainOptions.NO_SET_PORT) {
             port = QuestDBOptions.DEFAULT_PORT;
         }
         // TODO(anxing): maybe not hardcode here...

@@ -1,7 +1,7 @@
 package sqlancer.yugabyte.ysql.gen;
 
-import sqlancer.Randomly;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.yugabyte.ysql.YSQLGlobalState;
 
 public final class YSQLNotifyGenerator {

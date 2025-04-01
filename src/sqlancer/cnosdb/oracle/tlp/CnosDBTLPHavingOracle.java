@@ -3,7 +3,7 @@ package sqlancer.cnosdb.oracle.tlp;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBComparatorHelper;
 import sqlancer.cnosdb.CnosDBExpectedError;
 import sqlancer.cnosdb.CnosDBGlobalState;

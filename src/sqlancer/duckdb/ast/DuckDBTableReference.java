@@ -1,6 +1,6 @@
 package sqlancer.duckdb.ast;
 
-import sqlancer.common.ast.newast.TableReferenceNode;
+import sqlancer.base.common.ast.newast.TableReferenceNode;
 import sqlancer.duckdb.DuckDBSchema;
 
 public class DuckDBTableReference extends TableReferenceNode<DuckDBExpression, DuckDBSchema.DuckDBTable>

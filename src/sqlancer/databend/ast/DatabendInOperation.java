@@ -2,7 +2,7 @@ package sqlancer.databend.ast;
 
 import java.util.List;
 
-import sqlancer.common.ast.newast.NewInOperatorNode;
+import sqlancer.base.common.ast.newast.NewInOperatorNode;
 import sqlancer.databend.DatabendSchema;
 
 public class DatabendInOperation extends NewInOperatorNode<DatabendExpression> implements DatabendExpression {

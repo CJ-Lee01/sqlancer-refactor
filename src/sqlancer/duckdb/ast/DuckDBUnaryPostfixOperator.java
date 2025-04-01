@@ -1,7 +1,7 @@
 package sqlancer.duckdb.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPostfixOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPostfixOperatorNode;
 
 public class DuckDBUnaryPostfixOperator extends NewUnaryPostfixOperatorNode<DuckDBExpression>
         implements DuckDBExpression {

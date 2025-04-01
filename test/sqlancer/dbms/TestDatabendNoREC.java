@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 import org.junit.jupiter.api.Test;
 
-import sqlancer.Main;
-import sqlancer.Randomly;
+import sqlancer.base.Main;
+import sqlancer.base.Randomly;
 
 public class TestDatabendNoREC {
 

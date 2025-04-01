@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.util.Optional;
 import java.util.regex.Pattern;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.sqlite3.schema.SQLite3DataType;
 
 public final class SQLite3Cast {

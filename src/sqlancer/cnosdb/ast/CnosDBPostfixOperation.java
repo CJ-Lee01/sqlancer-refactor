@@ -1,8 +1,8 @@
 package sqlancer.cnosdb.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 
 public class CnosDBPostfixOperation implements CnosDBExpression {
 

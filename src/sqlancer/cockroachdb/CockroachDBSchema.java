@@ -6,15 +6,15 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
 import sqlancer.cockroachdb.CockroachDBProvider.CockroachDBGlobalState;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBTable;
-import sqlancer.common.schema.AbstractRelationalTable;
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.AbstractTables;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.common.schema.AbstractRelationalTable;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.AbstractTables;
+import sqlancer.base.common.schema.TableIndex;
 
 public class CockroachDBSchema extends AbstractSchema<CockroachDBGlobalState, CockroachDBTable> {
 

@@ -2,7 +2,7 @@ package sqlancer.presto.ast;
 
 import java.util.List;
 
-import sqlancer.common.ast.newast.NewCaseOperatorNode;
+import sqlancer.base.common.ast.newast.NewCaseOperatorNode;
 
 public class PrestoCaseOperation extends NewCaseOperatorNode<PrestoExpression> implements PrestoExpression {
     public PrestoCaseOperation(PrestoExpression switchCondition, List<PrestoExpression> conditions,

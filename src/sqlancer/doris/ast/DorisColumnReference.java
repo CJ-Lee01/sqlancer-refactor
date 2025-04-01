@@ -1,6 +1,6 @@
 package sqlancer.doris.ast;
 
-import sqlancer.common.ast.newast.ColumnReferenceNode;
+import sqlancer.base.common.ast.newast.ColumnReferenceNode;
 import sqlancer.doris.DorisSchema;
 
 public class DorisColumnReference extends ColumnReferenceNode<DorisExpression, DorisSchema.DorisColumn>

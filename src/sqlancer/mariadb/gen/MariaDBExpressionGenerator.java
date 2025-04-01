@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.gen.NoRECGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.NoRECGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 import sqlancer.mariadb.MariaDBProvider;
 import sqlancer.mariadb.MariaDBSchema.MariaDBColumn;
 import sqlancer.mariadb.MariaDBSchema.MariaDBDataType;

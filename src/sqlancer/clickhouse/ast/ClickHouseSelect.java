@@ -6,7 +6,7 @@ import java.util.List;
 import sqlancer.clickhouse.ClickHouseSchema.ClickHouseColumn;
 import sqlancer.clickhouse.ClickHouseSchema.ClickHouseTable;
 import sqlancer.clickhouse.ClickHouseToStringVisitor;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.newast.Select;
 
 public class ClickHouseSelect extends ClickHouseExpression implements
         Select<ClickHouseExpression.ClickHouseJoin, ClickHouseExpression, ClickHouseTable, ClickHouseColumn> {

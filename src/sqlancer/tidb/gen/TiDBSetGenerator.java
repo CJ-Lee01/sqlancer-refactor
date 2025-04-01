@@ -3,8 +3,8 @@ package sqlancer.tidb.gen;
 import java.sql.SQLException;
 import java.util.function.Function;
 
-import sqlancer.Randomly;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.tidb.TiDBProvider.TiDBGlobalState;
 
 public final class TiDBSetGenerator {

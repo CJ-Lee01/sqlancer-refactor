@@ -1,6 +1,6 @@
 package sqlancer.doris.ast;
 
-import sqlancer.common.ast.newast.NewBetweenOperatorNode;
+import sqlancer.base.common.ast.newast.NewBetweenOperatorNode;
 import sqlancer.doris.DorisSchema;
 
 public class DorisBetweenOperation extends NewBetweenOperatorNode<DorisExpression> implements DorisExpression {

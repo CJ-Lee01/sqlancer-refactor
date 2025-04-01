@@ -8,6 +8,9 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
+import sqlancer.base.ComparatorHelper;
+import sqlancer.base.MainOptions;
+import sqlancer.base.SQLGlobalState;
 import sqlancer.h2.H2Options;
 import sqlancer.h2.H2Schema;
 

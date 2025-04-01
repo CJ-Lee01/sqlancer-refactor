@@ -7,17 +7,17 @@ import java.sql.Statement;
 
 import com.google.auto.service.AutoService;
 
-import sqlancer.AbstractAction;
-import sqlancer.DatabaseProvider;
-import sqlancer.IgnoreMeException;
-import sqlancer.MainOptions;
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.SQLProviderAdapter;
-import sqlancer.StatementExecutor;
-import sqlancer.common.DBMSCommon;
-import sqlancer.common.query.SQLQueryAdapter;
-import sqlancer.common.query.SQLQueryProvider;
+import sqlancer.base.AbstractAction;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.MainOptions;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.SQLProviderAdapter;
+import sqlancer.base.StatementExecutor;
+import sqlancer.base.common.DBMSCommon;
+import sqlancer.base.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.SQLQueryProvider;
 import sqlancer.oceanbase.gen.OceanBaseAlterTable;
 import sqlancer.oceanbase.gen.OceanBaseDeleteGenerator;
 import sqlancer.oceanbase.gen.OceanBaseDropIndex;

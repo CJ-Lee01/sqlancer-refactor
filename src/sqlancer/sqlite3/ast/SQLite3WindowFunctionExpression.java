@@ -3,7 +3,7 @@ package sqlancer.sqlite3.ast;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.sqlite3.schema.SQLite3Schema.SQLite3Column.SQLite3CollateSequence;
 
 public class SQLite3WindowFunctionExpression extends SQLite3Expression {

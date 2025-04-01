@@ -1,6 +1,6 @@
 package sqlancer.clickhouse.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.clickhouse.ast.constant.ClickHouseCreateConstant;
 
 public class ClickHouseBinaryLogicalOperation extends ClickHouseExpression {

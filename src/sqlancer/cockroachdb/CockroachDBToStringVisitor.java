@@ -2,7 +2,7 @@ package sqlancer.cockroachdb;
 
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cockroachdb.ast.CockroachDBAggregate;
 import sqlancer.cockroachdb.ast.CockroachDBBetweenOperation;
 import sqlancer.cockroachdb.ast.CockroachDBCaseOperation;
@@ -15,7 +15,7 @@ import sqlancer.cockroachdb.ast.CockroachDBJoin;
 import sqlancer.cockroachdb.ast.CockroachDBMultiValuedComparison;
 import sqlancer.cockroachdb.ast.CockroachDBSelect;
 import sqlancer.cockroachdb.ast.CockroachDBTableReference;
-import sqlancer.common.visitor.ToStringVisitor;
+import sqlancer.base.common.visitor.ToStringVisitor;
 
 public class CockroachDBToStringVisitor extends ToStringVisitor<CockroachDBExpression> implements CockroachDBVisitor {
 

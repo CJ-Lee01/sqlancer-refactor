@@ -1,6 +1,6 @@
 package sqlancer.presto.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.presto.PrestoSchema;
 
 public enum PrestoMultiValuedComparisonOperator {

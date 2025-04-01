@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.JCommander.Builder;
 import com.beust.jcommander.Parameters;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.Main;
+import sqlancer.base.MainOptions;
 
 public class TestUsageNamingConvention {
 

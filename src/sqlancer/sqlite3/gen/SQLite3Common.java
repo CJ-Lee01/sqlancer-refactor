@@ -3,8 +3,8 @@ package sqlancer.sqlite3.gen;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.DBMSCommon;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.DBMSCommon;
 import sqlancer.sqlite3.SQLite3GlobalState;
 import sqlancer.sqlite3.SQLite3Visitor;
 import sqlancer.sqlite3.ast.SQLite3Expression;

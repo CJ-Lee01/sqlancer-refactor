@@ -2,7 +2,7 @@ package sqlancer.postgres.ast;
 
 import java.math.BigDecimal;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.postgres.PostgresSchema.PostgresDataType;
 
 public abstract class PostgresConstant implements PostgresExpression {

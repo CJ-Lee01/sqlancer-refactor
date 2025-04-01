@@ -3,9 +3,9 @@ package sqlancer.presto.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.common.gen.AbstractInsertGenerator;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.gen.AbstractInsertGenerator;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.presto.PrestoErrors;
 import sqlancer.presto.PrestoGlobalState;
 import sqlancer.presto.PrestoSchema.PrestoColumn;

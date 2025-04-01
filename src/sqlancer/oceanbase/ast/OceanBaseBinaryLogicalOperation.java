@@ -1,6 +1,6 @@
 package sqlancer.oceanbase.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class OceanBaseBinaryLogicalOperation implements OceanBaseExpression {
 

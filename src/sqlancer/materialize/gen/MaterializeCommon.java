@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.DBMSCommon;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.DBMSCommon;
+import sqlancer.base.common.query.ExpectedErrors;
 import sqlancer.materialize.MaterializeGlobalState;
 import sqlancer.materialize.MaterializeProvider;
 import sqlancer.materialize.MaterializeSchema;

@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
 import sqlancer.cnosdb.ast.CnosDBBinaryArithmeticOperation.CnosDBBinaryOperator;
-import sqlancer.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
 
 public class CnosDBBinaryArithmeticOperation extends BinaryOperatorNode<CnosDBExpression, CnosDBBinaryOperator>
         implements CnosDBExpression {

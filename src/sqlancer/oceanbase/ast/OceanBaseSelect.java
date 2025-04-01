@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseColumn;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseTable;
 import sqlancer.oceanbase.OceanBaseVisitor;

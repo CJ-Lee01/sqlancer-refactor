@@ -1,6 +1,6 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 
 public class YSQLOrderByTerm implements YSQLExpression {

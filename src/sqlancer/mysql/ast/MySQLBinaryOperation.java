@@ -2,8 +2,8 @@ package sqlancer.mysql.ast;
 
 import java.util.function.BinaryOperator;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
 import sqlancer.mysql.ast.MySQLCastOperation.CastType;
 
 public class MySQLBinaryOperation implements MySQLExpression {

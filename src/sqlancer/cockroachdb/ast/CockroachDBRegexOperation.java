@@ -1,7 +1,7 @@
 package sqlancer.cockroachdb.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryNode;
 
 public class CockroachDBRegexOperation extends BinaryNode<CockroachDBExpression> implements CockroachDBExpression {
 

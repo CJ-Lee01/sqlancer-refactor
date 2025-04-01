@@ -1,8 +1,8 @@
 package sqlancer.reducer.VirtualDB;
 
-import sqlancer.SQLConnection;
-import sqlancer.SQLGlobalState;
-import sqlancer.common.query.Query;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.SQLGlobalState;
+import sqlancer.base.common.query.Query;
 
 import java.util.List;
 import java.util.function.Function;

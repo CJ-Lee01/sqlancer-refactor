@@ -3,7 +3,7 @@ package sqlancer.mysql.ast;
 import java.util.function.BinaryOperator;
 import java.util.stream.Stream;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.mysql.MySQLSchema.MySQLDataType;
 import sqlancer.mysql.ast.MySQLCastOperation.CastType;
 

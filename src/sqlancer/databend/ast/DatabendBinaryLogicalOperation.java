@@ -1,8 +1,8 @@
 package sqlancer.databend.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewBinaryOperatorNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewBinaryOperatorNode;
 import sqlancer.databend.DatabendSchema.DatabendDataType;
 
 public class DatabendBinaryLogicalOperation extends NewBinaryOperatorNode<DatabendExpression>

@@ -1,6 +1,6 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.common.visitor.UnaryOperation;
+import sqlancer.base.common.visitor.UnaryOperation;
 
 public class YSQLAlias implements UnaryOperation<YSQLExpression>, YSQLExpression {
 

@@ -1,6 +1,6 @@
 package sqlancer.postgres.ast;
 
-import sqlancer.common.visitor.UnaryOperation;
+import sqlancer.base.common.visitor.UnaryOperation;
 
 public class PostgresAlias implements UnaryOperation<PostgresExpression>, PostgresExpression {
 

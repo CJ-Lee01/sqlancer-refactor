@@ -4,9 +4,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.ComparatorHelper;
-import sqlancer.Randomly;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.ComparatorHelper;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.oracle.TestOracle;
 import sqlancer.doris.DorisErrors;
 import sqlancer.doris.DorisProvider.DorisGlobalState;
 import sqlancer.doris.DorisSchema;

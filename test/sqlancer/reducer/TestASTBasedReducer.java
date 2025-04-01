@@ -3,7 +3,7 @@ package sqlancer.reducer;
 import net.sf.jsqlparser.JSQLParserException;
 import net.sf.jsqlparser.parser.CCJSqlParserUtil;
 import org.junit.jupiter.api.Test;
-import sqlancer.common.query.Query;
+import sqlancer.base.common.query.Query;
 
 import java.util.List;
 import java.util.function.Function;

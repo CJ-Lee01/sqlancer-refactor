@@ -1,6 +1,6 @@
 package sqlancer.cockroachdb.ast;
 
-import sqlancer.common.ast.UnaryNode;
+import sqlancer.base.common.ast.UnaryNode;
 
 public class CockroachDBNotOperation extends UnaryNode<CockroachDBExpression> implements CockroachDBExpression {
 

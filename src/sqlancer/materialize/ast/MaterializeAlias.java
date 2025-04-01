@@ -1,6 +1,6 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.common.visitor.UnaryOperation;
+import sqlancer.base.common.visitor.UnaryOperation;
 
 public class MaterializeAlias implements UnaryOperation<MaterializeExpression>, MaterializeExpression {
 

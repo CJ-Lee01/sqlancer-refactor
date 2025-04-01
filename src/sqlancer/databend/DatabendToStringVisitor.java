@@ -1,6 +1,6 @@
 package sqlancer.databend;
 
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.databend.ast.DatabendConstant;
 import sqlancer.databend.ast.DatabendExpression;
 import sqlancer.databend.ast.DatabendJoin;

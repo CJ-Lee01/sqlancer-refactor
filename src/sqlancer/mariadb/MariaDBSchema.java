@@ -10,12 +10,12 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.common.schema.AbstractRelationalTable;
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.common.schema.AbstractRelationalTable;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.TableIndex;
 import sqlancer.mariadb.MariaDBProvider.MariaDBGlobalState;
 import sqlancer.mariadb.MariaDBSchema.MariaDBTable;
 import sqlancer.mariadb.MariaDBSchema.MariaDBTable.MariaDBEngine;

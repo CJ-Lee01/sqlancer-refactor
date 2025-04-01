@@ -1,6 +1,6 @@
 package sqlancer.presto;
 
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.presto.ast.PrestoAtTimeZoneOperator;
 import sqlancer.presto.ast.PrestoCastFunction;
 import sqlancer.presto.ast.PrestoConstant;

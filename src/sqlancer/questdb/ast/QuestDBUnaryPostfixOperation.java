@@ -1,7 +1,7 @@
 package sqlancer.questdb.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPostfixOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPostfixOperatorNode;
 
 public class QuestDBUnaryPostfixOperation extends NewUnaryPostfixOperatorNode<QuestDBExpression>
         implements QuestDBExpression {

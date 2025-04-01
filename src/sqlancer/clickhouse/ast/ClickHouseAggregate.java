@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import com.clickhouse.client.ClickHouseDataType;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.clickhouse.ClickHouseSchema;
 
 public class ClickHouseAggregate extends ClickHouseExpression {

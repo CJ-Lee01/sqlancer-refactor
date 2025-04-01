@@ -1,6 +1,6 @@
 package sqlancer.h2;
 
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.h2.ast.H2CastNode;
 import sqlancer.h2.ast.H2Constant;
 import sqlancer.h2.ast.H2Expression;

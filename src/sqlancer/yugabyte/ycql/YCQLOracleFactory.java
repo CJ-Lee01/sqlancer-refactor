@@ -2,8 +2,8 @@ package sqlancer.yugabyte.ycql;
 
 import java.sql.SQLException;
 
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.TestOracle;
 import sqlancer.yugabyte.ycql.test.YCQLFuzzer;
 
 public enum YCQLOracleFactory implements OracleFactory<YCQLProvider.YCQLGlobalState> {

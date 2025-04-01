@@ -1,9 +1,9 @@
 package sqlancer.clickhouse.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.clickhouse.ast.constant.ClickHouseCreateConstant;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.visitor.UnaryOperation;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.visitor.UnaryOperation;
 
 public class ClickHouseUnaryPostfixOperation extends ClickHouseExpression
         implements UnaryOperation<ClickHouseExpression> {

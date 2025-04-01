@@ -1,7 +1,7 @@
 package sqlancer.clickhouse.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.visitor.BinaryOperation;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.visitor.BinaryOperation;
 
 public class ClickHouseBinaryArithmeticOperation extends ClickHouseExpression
         implements BinaryOperation<ClickHouseExpression> {

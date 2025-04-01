@@ -3,13 +3,13 @@ package sqlancer.cnosdb;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.OracleFactory;
+import sqlancer.base.OracleFactory;
 import sqlancer.cnosdb.oracle.CnosDBNoRECOracle;
 import sqlancer.cnosdb.oracle.tlp.CnosDBTLPAggregateOracle;
 import sqlancer.cnosdb.oracle.tlp.CnosDBTLPHavingOracle;
 import sqlancer.cnosdb.oracle.tlp.CnosDBTLPWhereOracle;
-import sqlancer.common.oracle.CompositeTestOracle;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.common.oracle.CompositeTestOracle;
+import sqlancer.base.common.oracle.TestOracle;
 
 public enum CnosDBOracleFactory implements OracleFactory<CnosDBGlobalState> {
     NOREC {

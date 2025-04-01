@@ -6,8 +6,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBCompoundDataType;
 import sqlancer.cnosdb.CnosDBGlobalState;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBColumn;
@@ -36,7 +36,7 @@ import sqlancer.cnosdb.ast.CnosDBPostfixOperation.PostfixOperator;
 import sqlancer.cnosdb.ast.CnosDBPrefixOperation;
 import sqlancer.cnosdb.ast.CnosDBPrefixOperation.PrefixOperator;
 import sqlancer.cnosdb.ast.CnosDBSimilarTo;
-import sqlancer.common.gen.ExpressionGenerator;
+import sqlancer.base.common.gen.ExpressionGenerator;
 
 public class CnosDBExpressionGenerator implements ExpressionGenerator<CnosDBExpression> {
 

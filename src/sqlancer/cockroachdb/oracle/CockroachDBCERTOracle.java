@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.SQLGlobalState;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLGlobalState;
 import sqlancer.cockroachdb.CockroachDBBugs;
 import sqlancer.cockroachdb.CockroachDBCommon;
 import sqlancer.cockroachdb.CockroachDBErrors;
@@ -26,11 +26,11 @@ import sqlancer.cockroachdb.ast.CockroachDBJoin.JoinType;
 import sqlancer.cockroachdb.ast.CockroachDBSelect;
 import sqlancer.cockroachdb.ast.CockroachDBTableReference;
 import sqlancer.cockroachdb.gen.CockroachDBExpressionGenerator;
-import sqlancer.common.DBMSCommon;
-import sqlancer.common.oracle.CERTOracleBase;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.SQLQueryAdapter;
-import sqlancer.common.query.SQLancerResultSet;
+import sqlancer.base.common.DBMSCommon;
+import sqlancer.base.common.oracle.CERTOracleBase;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.SQLancerResultSet;
 
 public class CockroachDBCERTOracle extends CERTOracleBase<CockroachDBGlobalState>
         implements TestOracle<CockroachDBGlobalState> {

@@ -1,8 +1,8 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryNode;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryNode;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 
 public class YSQLBinaryRangeOperation extends BinaryNode<YSQLExpression> implements YSQLExpression {

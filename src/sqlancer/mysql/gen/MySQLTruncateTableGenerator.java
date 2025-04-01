@@ -1,7 +1,7 @@
 package sqlancer.mysql.gen;
 
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.mysql.MySQLGlobalState;
 
 public final class MySQLTruncateTableGenerator {

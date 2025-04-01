@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBBugs;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
 import sqlancer.cnosdb.ast.CnosDBAggregate.CnosDBAggregateFunction;
-import sqlancer.common.ast.FunctionNode;
+import sqlancer.base.common.ast.FunctionNode;
 
 public class CnosDBAggregate extends FunctionNode<CnosDBAggregateFunction, CnosDBExpression>
         implements CnosDBExpression {

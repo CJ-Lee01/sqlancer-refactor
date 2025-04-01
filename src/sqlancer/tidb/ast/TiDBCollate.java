@@ -1,6 +1,6 @@
 package sqlancer.tidb.ast;
 
-import sqlancer.common.ast.UnaryNode;
+import sqlancer.base.common.ast.UnaryNode;
 
 public class TiDBCollate extends UnaryNode<TiDBExpression> implements TiDBExpression {
 

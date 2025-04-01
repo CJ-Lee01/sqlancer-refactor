@@ -1,7 +1,7 @@
 package sqlancer.mysql.ast;
 
-import sqlancer.LikeImplementationHelper;
-import sqlancer.Randomly;
+import sqlancer.base.LikeImplementationHelper;
+import sqlancer.base.Randomly;
 import sqlancer.mysql.MySQLSchema.MySQLDataType;
 import sqlancer.mysql.ast.MySQLUnaryPrefixOperation.MySQLUnaryPrefixOperator;
 

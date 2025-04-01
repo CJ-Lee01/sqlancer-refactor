@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.Randomly.StringGenerationStrategy;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.gen.UntypedExpressionGenerator;
+import sqlancer.base.Randomly;
+import sqlancer.base.Randomly.StringGenerationStrategy;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.gen.UntypedExpressionGenerator;
 import sqlancer.questdb.QuestDBProvider.QuestDBGlobalState;
 import sqlancer.questdb.QuestDBSchema.QuestDBColumn;
 import sqlancer.questdb.QuestDBSchema.QuestDBDataType;

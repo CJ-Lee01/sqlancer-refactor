@@ -5,16 +5,16 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.ast.CnosDBConstant;
 import sqlancer.cnosdb.client.CnosDBConnection;
 import sqlancer.cnosdb.client.CnosDBResultSet;
-import sqlancer.common.schema.AbstractRowValue;
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTable;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.AbstractTables;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.common.schema.AbstractRowValue;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTable;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.AbstractTables;
+import sqlancer.base.common.schema.TableIndex;
 
 public class CnosDBSchema extends AbstractSchema<CnosDBGlobalState, CnosDBSchema.CnosDBTable> {
 

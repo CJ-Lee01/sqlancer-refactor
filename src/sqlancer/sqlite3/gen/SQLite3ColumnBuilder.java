@@ -3,7 +3,7 @@ package sqlancer.sqlite3.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.sqlite3.SQLite3GlobalState;
 import sqlancer.sqlite3.SQLite3OracleFactory;
 import sqlancer.sqlite3.SQLite3Visitor;

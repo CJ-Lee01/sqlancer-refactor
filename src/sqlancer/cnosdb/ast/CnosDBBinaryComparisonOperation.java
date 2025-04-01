@@ -1,9 +1,9 @@
 package sqlancer.cnosdb.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
 import sqlancer.cnosdb.ast.CnosDBBinaryComparisonOperation.CnosDBBinaryComparisonOperator;
-import sqlancer.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
 
 public class CnosDBBinaryComparisonOperation
         extends BinaryOperatorNode<CnosDBExpression, CnosDBBinaryComparisonOperator> implements CnosDBExpression {

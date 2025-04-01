@@ -3,7 +3,7 @@ package sqlancer.mysql;
 
 import java.sql.SQLException;
 
-import sqlancer.SQLGlobalState;
+import sqlancer.base.SQLGlobalState;
 
 public class MySQLGlobalState extends SQLGlobalState<MySQLOptions, MySQLSchema> {
 

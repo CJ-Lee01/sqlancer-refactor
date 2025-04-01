@@ -2,7 +2,7 @@ package sqlancer.mysql.ast;
 
 import java.util.List;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 
 /**
  * @see <a href="https://dev.mysql.com/doc/refman/8.0/en/comparison-operators.html#operator_in">Comparison Functions and

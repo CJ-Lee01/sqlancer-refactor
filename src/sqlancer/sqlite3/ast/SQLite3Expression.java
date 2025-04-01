@@ -3,12 +3,12 @@ package sqlancer.sqlite3.ast;
 import java.util.List;
 import java.util.Optional;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.LikeImplementationHelper;
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.Expression;
-import sqlancer.common.visitor.BinaryOperation;
-import sqlancer.common.visitor.UnaryOperation;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.LikeImplementationHelper;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.Expression;
+import sqlancer.base.common.visitor.BinaryOperation;
+import sqlancer.base.common.visitor.UnaryOperation;
 import sqlancer.sqlite3.SQLite3CollateHelper;
 import sqlancer.sqlite3.SQLite3Provider;
 import sqlancer.sqlite3.ast.SQLite3Expression.BinaryComparisonOperation.BinaryComparisonOperator;
@@ -130,7 +130,7 @@ public abstract class SQLite3Expression implements Expression<SQLite3Column> {
     }
 
     public static class Join extends SQLite3Expression
-            implements sqlancer.common.ast.newast.Join<SQLite3Expression, SQLite3Table, SQLite3Column> {
+            implements sqlancer.base.common.ast.newast.Join<SQLite3Expression, SQLite3Table, SQLite3Column> {
 
         public enum JoinType {
             INNER, CROSS, OUTER, NATURAL, RIGHT, FULL;

@@ -3,8 +3,8 @@ package sqlancer.h2.ast;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 import sqlancer.h2.H2Schema.H2Column;
 import sqlancer.h2.H2Schema.H2Table;
 import sqlancer.h2.H2ToStringVisitor;

@@ -3,8 +3,8 @@ package sqlancer.presto.ast;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 import sqlancer.presto.PrestoSchema.PrestoColumn;
 import sqlancer.presto.PrestoSchema.PrestoTable;
 import sqlancer.presto.PrestoToStringVisitor;

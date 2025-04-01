@@ -1,6 +1,6 @@
 package sqlancer.databend.ast;
 
-import sqlancer.common.ast.newast.ColumnReferenceNode;
+import sqlancer.base.common.ast.newast.ColumnReferenceNode;
 import sqlancer.databend.DatabendSchema;
 
 public class DatabendColumnReference extends ColumnReferenceNode<DatabendExpression, DatabendSchema.DatabendColumn>

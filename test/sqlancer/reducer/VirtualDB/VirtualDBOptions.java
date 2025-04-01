@@ -1,9 +1,9 @@
 package sqlancer.reducer.VirtualDB;
 
 import com.beust.jcommander.Parameters;
-import sqlancer.DBMSSpecificOptions;
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.DBMSSpecificOptions;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.TestOracle;
 import sqlancer.reducer.VirtualDB.VirtualDBOptions.VirtualDBFactory;
 
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
 package sqlancer.databend.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewBinaryOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewBinaryOperatorNode;
 import sqlancer.databend.DatabendSchema.DatabendDataType;
 
 public class DatabendBinaryComparisonOperation extends NewBinaryOperatorNode<DatabendExpression>

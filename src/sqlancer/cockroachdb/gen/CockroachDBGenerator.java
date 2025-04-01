@@ -2,10 +2,10 @@ package sqlancer.cockroachdb.gen;
 
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cockroachdb.CockroachDBProvider.CockroachDBGlobalState;
 import sqlancer.cockroachdb.CockroachDBSchema.CockroachDBColumn;
-import sqlancer.common.gen.AbstractGenerator;
+import sqlancer.base.common.gen.AbstractGenerator;
 
 public abstract class CockroachDBGenerator extends AbstractGenerator {
 

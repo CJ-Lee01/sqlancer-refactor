@@ -1,6 +1,6 @@
 package sqlancer.databend.ast;
 
-import sqlancer.common.ast.newast.Expression;
+import sqlancer.base.common.ast.newast.Expression;
 import sqlancer.databend.DatabendSchema.DatabendColumn;
 import sqlancer.databend.DatabendSchema.DatabendDataType;
 

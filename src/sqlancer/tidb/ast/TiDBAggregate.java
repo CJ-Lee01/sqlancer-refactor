@@ -2,8 +2,8 @@ package sqlancer.tidb.ast;
 
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.FunctionNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.FunctionNode;
 import sqlancer.tidb.ast.TiDBAggregate.TiDBAggregateFunction;
 
 public class TiDBAggregate extends FunctionNode<TiDBAggregateFunction, TiDBExpression> implements TiDBExpression {

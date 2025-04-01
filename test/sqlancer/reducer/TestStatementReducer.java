@@ -1,8 +1,8 @@
 package sqlancer.reducer;
 
 import org.junit.jupiter.api.Test;
-import sqlancer.Main;
-import sqlancer.common.query.Query;
+import sqlancer.base.Main;
+import sqlancer.base.common.query.Query;
 
 import java.util.ArrayList;
 import java.util.List;

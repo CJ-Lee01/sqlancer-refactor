@@ -1,6 +1,6 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.common.ast.newast.Expression;
+import sqlancer.base.common.ast.newast.Expression;
 import sqlancer.materialize.MaterializeSchema.MaterializeColumn;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 

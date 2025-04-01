@@ -1,6 +1,6 @@
 package sqlancer.sqlite3.gen;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class SQLite3MatchStringGenerator {
 

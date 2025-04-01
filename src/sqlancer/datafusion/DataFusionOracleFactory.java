@@ -2,11 +2,11 @@ package sqlancer.datafusion;
 
 import java.sql.SQLException;
 
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.NoRECOracle;
-import sqlancer.common.oracle.TLPWhereOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.NoRECOracle;
+import sqlancer.base.common.oracle.TLPWhereOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
 import sqlancer.datafusion.gen.DataFusionExpressionGenerator;
 
 public enum DataFusionOracleFactory implements OracleFactory<DataFusionProvider.DataFusionGlobalState> {

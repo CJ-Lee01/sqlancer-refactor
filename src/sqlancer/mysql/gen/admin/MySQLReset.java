@@ -2,8 +2,8 @@ package sqlancer.mysql.gen.admin;
 
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.mysql.MySQLGlobalState;
 
 public final class MySQLReset {

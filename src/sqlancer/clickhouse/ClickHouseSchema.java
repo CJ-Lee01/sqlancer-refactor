@@ -10,19 +10,19 @@ import java.util.Map;
 
 import com.clickhouse.client.ClickHouseDataType;
 
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
 import sqlancer.clickhouse.ClickHouseProvider.ClickHouseGlobalState;
 import sqlancer.clickhouse.ClickHouseSchema.ClickHouseTable;
 import sqlancer.clickhouse.ast.ClickHouseColumnReference;
 import sqlancer.clickhouse.ast.ClickHouseConstant;
 import sqlancer.clickhouse.ast.constant.ClickHouseCreateConstant;
-import sqlancer.common.schema.AbstractRelationalTable;
-import sqlancer.common.schema.AbstractRowValue;
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.AbstractTables;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.common.schema.AbstractRelationalTable;
+import sqlancer.base.common.schema.AbstractRowValue;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.AbstractTables;
+import sqlancer.base.common.schema.TableIndex;
 
 public class ClickHouseSchema extends AbstractSchema<ClickHouseGlobalState, ClickHouseTable> {
 
