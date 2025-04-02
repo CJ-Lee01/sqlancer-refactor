@@ -1,7 +1,7 @@
 package sqlancer.hsqldb.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPrefixOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPrefixOperatorNode;
 import sqlancer.hsqldb.HSQLDBSchema;
 
 public class HSQLDBUnaryPrefixOperation extends NewUnaryPrefixOperatorNode<HSQLDBExpression>

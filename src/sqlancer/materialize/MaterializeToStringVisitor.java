@@ -2,9 +2,9 @@ package sqlancer.materialize;
 
 import java.util.Optional;
 
-import sqlancer.Randomly;
-import sqlancer.common.visitor.BinaryOperation;
-import sqlancer.common.visitor.ToStringVisitor;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.visitor.BinaryOperation;
+import sqlancer.base.common.visitor.ToStringVisitor;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 import sqlancer.materialize.ast.MaterializeAggregate;
 import sqlancer.materialize.ast.MaterializeBetweenOperation;

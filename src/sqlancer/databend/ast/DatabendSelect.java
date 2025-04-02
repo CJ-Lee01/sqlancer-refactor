@@ -3,8 +3,8 @@ package sqlancer.databend.ast;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.common.ast.SelectBase;
-import sqlancer.common.ast.newast.Select;
+import sqlancer.base.common.ast.SelectBase;
+import sqlancer.base.common.ast.newast.Select;
 import sqlancer.databend.DatabendSchema.DatabendColumn;
 import sqlancer.databend.DatabendSchema.DatabendTable;
 import sqlancer.databend.DatabendToStringVisitor;

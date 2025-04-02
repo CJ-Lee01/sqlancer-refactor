@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 import sqlancer.datafusion.DataFusionSchema.DataFusionDataType;
 
 /*

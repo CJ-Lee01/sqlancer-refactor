@@ -3,10 +3,10 @@ package sqlancer.postgres.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.DBMSCommon;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.DBMSCommon;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.postgres.PostgresGlobalState;
 import sqlancer.postgres.PostgresSchema.PostgresColumn;
 import sqlancer.postgres.PostgresSchema.PostgresDataType;

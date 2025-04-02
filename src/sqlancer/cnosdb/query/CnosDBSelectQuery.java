@@ -1,10 +1,10 @@
 package sqlancer.cnosdb.query;
 
-import sqlancer.GlobalState;
+import sqlancer.base.GlobalState;
 import sqlancer.cnosdb.client.CnosDBConnection;
 import sqlancer.cnosdb.client.CnosDBResultSet;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLancerResultSet;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLancerResultSet;
 
 public class CnosDBSelectQuery extends CnosDBQueryAdapter {
     CnosDBResultSet resultSet;

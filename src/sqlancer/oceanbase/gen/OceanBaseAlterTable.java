@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.oceanbase.OceanBaseGlobalState;
 import sqlancer.oceanbase.OceanBaseSchema;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseTable;

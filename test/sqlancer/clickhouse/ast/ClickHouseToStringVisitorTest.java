@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import sqlancer.clickhouse.ClickHouseSchema;
 import sqlancer.clickhouse.ClickHouseVisitor;
 import sqlancer.clickhouse.ast.constant.ClickHouseInt8Constant;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.common.schema.TableIndex;
 
 import java.util.Arrays;
 import java.util.Collections;

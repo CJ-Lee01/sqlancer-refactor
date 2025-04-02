@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.databend.DatabendProvider.DatabendGlobalState;
 import sqlancer.databend.DatabendSchema;
 import sqlancer.databend.DatabendSchema.DatabendColumn;

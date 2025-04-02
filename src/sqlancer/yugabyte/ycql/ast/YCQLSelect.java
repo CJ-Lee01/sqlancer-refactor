@@ -1,6 +1,6 @@
 package sqlancer.yugabyte.ycql.ast;
 
-import sqlancer.common.ast.SelectBase;
+import sqlancer.base.common.ast.SelectBase;
 
 public class YCQLSelect extends SelectBase<YCQLExpression> implements YCQLExpression {
 

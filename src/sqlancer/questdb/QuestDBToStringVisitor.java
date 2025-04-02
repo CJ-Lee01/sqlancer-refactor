@@ -1,6 +1,6 @@
 package sqlancer.questdb;
 
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.questdb.ast.QuestDBConstant;
 import sqlancer.questdb.ast.QuestDBExpression;
 import sqlancer.questdb.ast.QuestDBSelect;

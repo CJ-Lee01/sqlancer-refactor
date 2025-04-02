@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.doris.DorisProvider.DorisGlobalState;
 import sqlancer.doris.DorisSchema;
 import sqlancer.doris.DorisSchema.DorisTable;

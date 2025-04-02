@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.FunctionNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.FunctionNode;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 import sqlancer.materialize.ast.MaterializeAggregate.MaterializeAggregateFunction;
 

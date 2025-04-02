@@ -3,9 +3,9 @@ package sqlancer.materialize.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.materialize.MaterializeGlobalState;
 import sqlancer.materialize.MaterializeSchema.MaterializeColumn;
 import sqlancer.materialize.MaterializeSchema.MaterializeTable;

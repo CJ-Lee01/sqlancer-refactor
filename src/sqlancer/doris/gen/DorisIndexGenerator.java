@@ -3,10 +3,10 @@ package sqlancer.doris.gen;
 import java.sql.SQLException;
 import java.util.List;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.doris.DorisProvider.DorisGlobalState;
 import sqlancer.doris.DorisSchema.DorisColumn;
 import sqlancer.doris.DorisSchema.DorisTable;

@@ -1,7 +1,7 @@
 package sqlancer.doris.visitor;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.doris.ast.DorisCaseOperation;
 import sqlancer.doris.ast.DorisCastOperation;
 import sqlancer.doris.ast.DorisConstant;

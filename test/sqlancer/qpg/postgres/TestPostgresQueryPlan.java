@@ -3,10 +3,10 @@ package sqlancer.qpg.postgres;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-import sqlancer.Main;
-import sqlancer.MainOptions;
-import sqlancer.SQLConnection;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Main;
+import sqlancer.base.MainOptions;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.postgres.PostgresGlobalState;
 import sqlancer.postgres.PostgresOptions;
 import sqlancer.postgres.PostgresProvider;

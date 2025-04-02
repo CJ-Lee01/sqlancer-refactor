@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.presto.PrestoGlobalState;
 import sqlancer.presto.PrestoSchema;
 import sqlancer.presto.PrestoSchema.PrestoTable;

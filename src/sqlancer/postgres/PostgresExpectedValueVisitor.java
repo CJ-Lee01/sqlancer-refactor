@@ -1,6 +1,6 @@
 package sqlancer.postgres;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.postgres.ast.PostgresAggregate;
 import sqlancer.postgres.ast.PostgresBetweenOperation;
 import sqlancer.postgres.ast.PostgresBinaryLogicalOperation;

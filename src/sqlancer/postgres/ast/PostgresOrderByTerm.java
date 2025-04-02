@@ -1,6 +1,6 @@
 package sqlancer.postgres.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.postgres.PostgresSchema.PostgresDataType;
 
 public class PostgresOrderByTerm implements PostgresExpression {

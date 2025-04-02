@@ -1,7 +1,7 @@
 package sqlancer.dbms;
 
 import org.junit.jupiter.api.Test;
-import sqlancer.Main;
+import sqlancer.base.Main;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;

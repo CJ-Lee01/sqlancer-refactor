@@ -1,6 +1,6 @@
 package sqlancer.presto.ast;
 
-import sqlancer.common.ast.newast.TableReferenceNode;
+import sqlancer.base.common.ast.newast.TableReferenceNode;
 import sqlancer.presto.PrestoSchema;
 
 public class PrestoTableReference extends TableReferenceNode<PrestoExpression, PrestoSchema.PrestoTable>

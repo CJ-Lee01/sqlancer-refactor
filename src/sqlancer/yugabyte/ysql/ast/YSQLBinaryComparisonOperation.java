@@ -1,8 +1,7 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 import sqlancer.yugabyte.ysql.ast.YSQLBinaryComparisonOperation.YSQLBinaryComparisonOperator;
 

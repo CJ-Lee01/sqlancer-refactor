@@ -1,7 +1,7 @@
 package sqlancer.questdb.gen;
 
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.questdb.QuestDBErrors;
 import sqlancer.questdb.QuestDBProvider.QuestDBGlobalState;
 import sqlancer.questdb.QuestDBSchema.QuestDBTable;

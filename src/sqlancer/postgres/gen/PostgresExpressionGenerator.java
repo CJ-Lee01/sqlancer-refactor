@@ -9,12 +9,13 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.gen.CERTGenerator;
-import sqlancer.common.gen.ExpressionGenerator;
-import sqlancer.common.gen.NoRECGenerator;
-import sqlancer.common.gen.TLPWhereGenerator;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.schema.AbstractTables;
+import sqlancer.base.common.gen.CERTGenerator;
+import sqlancer.base.common.gen.ExpressionGenerator;
+import sqlancer.base.common.gen.NoRECGenerator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
 import sqlancer.postgres.PostgresBugs;
 import sqlancer.postgres.PostgresCompoundDataType;
 import sqlancer.postgres.PostgresGlobalState;
@@ -716,7 +717,7 @@ public class PostgresExpressionGenerator implements ExpressionGenerator<Postgres
 
     @Override
     public PostgresExpressionGenerator setTablesAndColumns(
-            sqlancer.common.schema.AbstractTables<PostgresTable, PostgresColumn> targetTables) {
+            AbstractTables<PostgresTable, PostgresColumn> targetTables) {
         this.targetTables = targetTables.getTables();
         this.columns = targetTables.getColumns();
         return this;

@@ -2,7 +2,7 @@ package sqlancer.materialize.ast;
 
 import java.math.BigDecimal;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 
 public abstract class MaterializeConstant implements MaterializeExpression {

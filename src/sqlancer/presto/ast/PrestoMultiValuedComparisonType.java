@@ -1,6 +1,6 @@
 package sqlancer.presto.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public enum PrestoMultiValuedComparisonType {
     ANY, SOME, ALL;

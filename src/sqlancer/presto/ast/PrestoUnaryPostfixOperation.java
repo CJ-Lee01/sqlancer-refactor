@@ -1,8 +1,8 @@
 package sqlancer.presto.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPostfixOperatorNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPostfixOperatorNode;
 import sqlancer.presto.PrestoSchema;
 
 public class PrestoUnaryPostfixOperation extends NewUnaryPostfixOperatorNode<PrestoExpression>

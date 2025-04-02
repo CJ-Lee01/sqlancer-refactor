@@ -3,8 +3,8 @@ package sqlancer.datafusion.ast;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.Join;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.Join;
 import sqlancer.datafusion.DataFusionProvider.DataFusionGlobalState;
 import sqlancer.datafusion.DataFusionSchema;
 import sqlancer.datafusion.DataFusionSchema.DataFusionColumn;

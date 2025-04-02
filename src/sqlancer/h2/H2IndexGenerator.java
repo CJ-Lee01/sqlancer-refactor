@@ -1,8 +1,8 @@
 package sqlancer.h2;
 
-import sqlancer.Randomly;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.h2.H2Provider.H2GlobalState;
 import sqlancer.h2.H2Schema.H2Table;
 

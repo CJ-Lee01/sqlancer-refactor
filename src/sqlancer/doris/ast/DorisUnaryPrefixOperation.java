@@ -1,8 +1,8 @@
 package sqlancer.doris.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPrefixOperatorNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPrefixOperatorNode;
 import sqlancer.doris.DorisSchema.DorisDataType;
 
 public class DorisUnaryPrefixOperation extends NewUnaryPrefixOperatorNode<DorisExpression> implements DorisExpression {

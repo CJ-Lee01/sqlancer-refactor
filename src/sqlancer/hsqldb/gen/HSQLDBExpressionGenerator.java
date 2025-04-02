@@ -5,12 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.gen.NoRECGenerator;
-import sqlancer.common.gen.TLPWhereGenerator;
-import sqlancer.common.gen.TypedExpressionGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.gen.NoRECGenerator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
+import sqlancer.base.common.gen.TypedExpressionGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 import sqlancer.hsqldb.HSQLDBProvider;
 import sqlancer.hsqldb.HSQLDBSchema;
 import sqlancer.hsqldb.HSQLDBSchema.HSQLDBColumn;

@@ -3,7 +3,7 @@ package sqlancer.materialize.ast;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 import sqlancer.materialize.gen.MaterializeExpressionGenerator;
 

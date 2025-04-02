@@ -6,7 +6,7 @@ import java.util.List;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 
-import sqlancer.DBMSSpecificOptions;
+import sqlancer.base.DBMSSpecificOptions;
 
 @Parameters(separators = "=", commandDescription = "YSQL (default port: " + YSQLOptions.DEFAULT_PORT
         + ", default host: " + YSQLOptions.DEFAULT_HOST)

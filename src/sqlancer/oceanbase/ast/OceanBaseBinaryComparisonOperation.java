@@ -1,6 +1,6 @@
 package sqlancer.oceanbase.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseDataType;
 import sqlancer.oceanbase.ast.OceanBaseUnaryPrefixOperation.OceanBaseUnaryPrefixOperator;
 

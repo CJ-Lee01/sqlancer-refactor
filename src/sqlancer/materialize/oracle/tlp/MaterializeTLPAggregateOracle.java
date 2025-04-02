@@ -8,12 +8,12 @@ import java.util.List;
 
 import org.postgresql.util.PSQLException;
 
-import sqlancer.ComparatorHelper;
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.SQLQueryAdapter;
-import sqlancer.common.query.SQLancerResultSet;
+import sqlancer.base.ComparatorHelper;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.SQLancerResultSet;
 import sqlancer.materialize.MaterializeGlobalState;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 import sqlancer.materialize.MaterializeVisitor;

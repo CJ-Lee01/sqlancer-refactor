@@ -1,7 +1,7 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.Join;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.Join;
 import sqlancer.materialize.MaterializeSchema.MaterializeColumn;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 import sqlancer.materialize.MaterializeSchema.MaterializeTable;

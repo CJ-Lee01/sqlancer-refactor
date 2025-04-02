@@ -3,15 +3,15 @@ package sqlancer.cnosdb.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBGlobalState;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBColumn;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBTable;
 import sqlancer.cnosdb.CnosDBVisitor;
 import sqlancer.cnosdb.ast.CnosDBExpression;
 import sqlancer.cnosdb.query.CnosDBOtherQuery;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.schema.AbstractTableColumn;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.schema.AbstractTableColumn;
 
 public final class CnosDBInsertGenerator {
 

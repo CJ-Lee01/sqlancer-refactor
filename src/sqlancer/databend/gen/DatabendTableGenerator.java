@@ -3,10 +3,10 @@ package sqlancer.databend.gen;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.gen.TypedExpressionGenerator;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.TypedExpressionGenerator;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.databend.DatabendErrors;
 import sqlancer.databend.DatabendProvider.DatabendGlobalState;
 import sqlancer.databend.DatabendSchema.DatabendColumn;

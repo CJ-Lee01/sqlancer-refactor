@@ -1,7 +1,7 @@
 package sqlancer.cnosdb.ast;
 
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 
 public class CnosDBPrefixOperation implements CnosDBExpression {
 

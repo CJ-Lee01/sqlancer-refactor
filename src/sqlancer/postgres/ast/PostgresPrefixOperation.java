@@ -1,7 +1,7 @@
 package sqlancer.postgres.ast;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 import sqlancer.postgres.PostgresSchema.PostgresDataType;
 
 public class PostgresPrefixOperation implements PostgresExpression {

@@ -1,9 +1,9 @@
 package sqlancer.databend.ast;
 
-import sqlancer.LikeImplementationHelper;
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewBinaryOperatorNode;
+import sqlancer.base.LikeImplementationHelper;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewBinaryOperatorNode;
 import sqlancer.databend.DatabendSchema.DatabendDataType;
 
 public class DatabendLikeOperation extends NewBinaryOperatorNode<DatabendExpression> implements DatabendExpression {

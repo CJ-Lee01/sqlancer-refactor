@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.CnosDBGlobalState;
 import sqlancer.cnosdb.CnosDBSchema;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBColumn;
@@ -20,9 +20,9 @@ import sqlancer.cnosdb.ast.CnosDBSelect.CnosDBFromTable;
 import sqlancer.cnosdb.ast.CnosDBSelect.CnosDBSubquery;
 import sqlancer.cnosdb.gen.CnosDBExpressionGenerator;
 import sqlancer.cnosdb.oracle.CnosDBNoRECOracle;
-import sqlancer.common.gen.ExpressionGenerator;
-import sqlancer.common.oracle.TernaryLogicPartitioningOracleBase;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.common.gen.ExpressionGenerator;
+import sqlancer.base.common.oracle.TernaryLogicPartitioningOracleBase;
+import sqlancer.base.common.oracle.TestOracle;
 
 public class CnosDBTLPBase extends TernaryLogicPartitioningOracleBase<CnosDBExpression, CnosDBGlobalState>
         implements TestOracle<CnosDBGlobalState> {

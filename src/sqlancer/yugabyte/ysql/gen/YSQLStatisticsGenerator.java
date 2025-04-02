@@ -3,11 +3,11 @@ package sqlancer.yugabyte.ysql.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
-import sqlancer.common.schema.AbstractTableColumn;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
+import sqlancer.base.common.schema.AbstractTableColumn;
 import sqlancer.yugabyte.ysql.YSQLGlobalState;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLColumn;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLStatisticsObject;

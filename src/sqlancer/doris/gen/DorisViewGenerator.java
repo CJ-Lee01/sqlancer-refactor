@@ -1,9 +1,9 @@
 package sqlancer.doris.gen;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.doris.DorisErrors;
 import sqlancer.doris.DorisProvider.DorisGlobalState;
 import sqlancer.doris.visitor.DorisToStringVisitor;

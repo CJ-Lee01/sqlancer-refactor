@@ -4,19 +4,19 @@ import java.util.Objects;
 
 import com.google.auto.service.AutoService;
 
-import sqlancer.AbstractAction;
-import sqlancer.DatabaseProvider;
-import sqlancer.IgnoreMeException;
-import sqlancer.ProviderAdapter;
-import sqlancer.Randomly;
-import sqlancer.StatementExecutor;
+import sqlancer.base.AbstractAction;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.ProviderAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.StatementExecutor;
 import sqlancer.cnosdb.client.CnosDBClient;
 import sqlancer.cnosdb.client.CnosDBConnection;
 import sqlancer.cnosdb.gen.CnosDBInsertGenerator;
 import sqlancer.cnosdb.gen.CnosDBTableGenerator;
 import sqlancer.cnosdb.query.CnosDBOtherQuery;
 import sqlancer.cnosdb.query.CnosDBQueryProvider;
-import sqlancer.common.log.LoggableFactory;
+import sqlancer.base.common.log.LoggableFactory;
 
 @AutoService(DatabaseProvider.class)
 public class CnosDBProvider extends ProviderAdapter<CnosDBGlobalState, CnosDBOptions, CnosDBConnection> {

@@ -6,7 +6,7 @@ import java.util.List;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 
-import sqlancer.DBMSSpecificOptions;
+import sqlancer.base.DBMSSpecificOptions;
 
 @Parameters(separators = "=", commandDescription = "QuestDB (default port: " + QuestDBOptions.DEFAULT_PORT
         + " default host: " + QuestDBOptions.DEFAULT_HOST + ")")

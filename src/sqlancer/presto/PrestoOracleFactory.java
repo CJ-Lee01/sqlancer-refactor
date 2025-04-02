@@ -3,11 +3,11 @@ package sqlancer.presto;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.CompositeTestOracle;
-import sqlancer.common.oracle.NoRECOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.CompositeTestOracle;
+import sqlancer.base.common.oracle.NoRECOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
 import sqlancer.presto.gen.PrestoTypedExpressionGenerator;
 import sqlancer.presto.test.PrestoQueryPartitioningAggregateTester;
 import sqlancer.presto.test.PrestoQueryPartitioningDistinctTester;

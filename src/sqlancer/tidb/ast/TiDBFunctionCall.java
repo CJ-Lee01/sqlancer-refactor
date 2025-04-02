@@ -2,7 +2,7 @@ package sqlancer.tidb.ast;
 
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class TiDBFunctionCall implements TiDBExpression {
 

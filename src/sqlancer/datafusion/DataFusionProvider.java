@@ -13,13 +13,13 @@ import java.util.stream.Collectors;
 
 import com.google.auto.service.AutoService;
 
-import sqlancer.DatabaseProvider;
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.SQLGlobalState;
-import sqlancer.SQLProviderAdapter;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.SQLGlobalState;
+import sqlancer.base.SQLProviderAdapter;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.datafusion.DataFusionProvider.DataFusionGlobalState;
 import sqlancer.datafusion.DataFusionSchema.DataFusionTable;
 import sqlancer.datafusion.DataFusionUtil.DataFusionInstanceID;

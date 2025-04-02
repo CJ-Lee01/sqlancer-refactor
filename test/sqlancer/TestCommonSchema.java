@@ -1,10 +1,11 @@
 package sqlancer;
 
 import org.junit.jupiter.api.Test;
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTable;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.GlobalState;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTable;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.TableIndex;
 
 import java.util.*;
 import java.util.stream.Collectors;

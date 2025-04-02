@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.ast.newast.NewOrderingTerm.Ordering;
-import sqlancer.common.gen.UntypedExpressionGenerator;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.newast.NewOrderingTerm.Ordering;
+import sqlancer.base.common.gen.UntypedExpressionGenerator;
 import sqlancer.yugabyte.ycql.YCQLProvider.YCQLGlobalState;
 import sqlancer.yugabyte.ycql.YCQLSchema.YCQLColumn;
 import sqlancer.yugabyte.ycql.YCQLSchema.YCQLDataType;

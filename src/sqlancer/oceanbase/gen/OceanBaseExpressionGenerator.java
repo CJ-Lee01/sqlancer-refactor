@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.gen.NoRECGenerator;
-import sqlancer.common.gen.TLPWhereGenerator;
-import sqlancer.common.gen.UntypedExpressionGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.NoRECGenerator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
+import sqlancer.base.common.gen.UntypedExpressionGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 import sqlancer.oceanbase.OceanBaseGlobalState;
 import sqlancer.oceanbase.OceanBaseSchema;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseColumn;

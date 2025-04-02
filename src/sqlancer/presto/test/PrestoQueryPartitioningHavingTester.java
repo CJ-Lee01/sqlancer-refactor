@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import sqlancer.ComparatorHelper;
-import sqlancer.Randomly;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.ComparatorHelper;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.oracle.TestOracle;
 import sqlancer.presto.PrestoErrors;
 import sqlancer.presto.PrestoGlobalState;
 import sqlancer.presto.PrestoSchema;

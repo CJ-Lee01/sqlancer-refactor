@@ -1,6 +1,6 @@
 package sqlancer.hsqldb.ast;
 
-import sqlancer.common.ast.newast.TableReferenceNode;
+import sqlancer.base.common.ast.newast.TableReferenceNode;
 import sqlancer.hsqldb.HSQLDBSchema;
 
 public class HSQLDBTableReference extends TableReferenceNode<HSQLDBExpression, HSQLDBSchema.HSQLDBTable>

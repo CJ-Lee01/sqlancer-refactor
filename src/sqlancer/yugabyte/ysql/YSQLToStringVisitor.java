@@ -2,9 +2,9 @@ package sqlancer.yugabyte.ysql;
 
 import java.util.Optional;
 
-import sqlancer.Randomly;
-import sqlancer.common.visitor.BinaryOperation;
-import sqlancer.common.visitor.ToStringVisitor;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.visitor.BinaryOperation;
+import sqlancer.base.common.visitor.ToStringVisitor;
 import sqlancer.yugabyte.ysql.ast.YSQLAggregate;
 import sqlancer.yugabyte.ysql.ast.YSQLBetweenOperation;
 import sqlancer.yugabyte.ysql.ast.YSQLBinaryLogicalOperation;

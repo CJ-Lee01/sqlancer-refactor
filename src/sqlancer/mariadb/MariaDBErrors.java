@@ -3,7 +3,7 @@ package sqlancer.mariadb;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.common.query.ExpectedErrors;
 
 public final class MariaDBErrors {
 

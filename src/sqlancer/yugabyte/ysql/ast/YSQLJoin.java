@@ -1,7 +1,7 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.Join;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.Join;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLColumn;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLTable;

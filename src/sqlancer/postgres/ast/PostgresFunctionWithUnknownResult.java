@@ -3,7 +3,7 @@ package sqlancer.postgres.ast;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.postgres.PostgresSchema.PostgresDataType;
 import sqlancer.postgres.gen.PostgresExpressionGenerator;
 

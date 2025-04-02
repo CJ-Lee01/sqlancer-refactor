@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.gen.CERTGenerator;
-import sqlancer.common.gen.TLPWhereGenerator;
-import sqlancer.common.gen.UntypedExpressionGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.CERTGenerator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
+import sqlancer.base.common.gen.UntypedExpressionGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 import sqlancer.tidb.TiDBProvider.TiDBGlobalState;
 import sqlancer.tidb.TiDBSchema.TiDBColumn;
 import sqlancer.tidb.TiDBSchema.TiDBCompositeDataType;

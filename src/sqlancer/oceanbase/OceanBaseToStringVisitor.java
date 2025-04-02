@@ -3,8 +3,8 @@ package sqlancer.oceanbase;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.visitor.ToStringVisitor;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.visitor.ToStringVisitor;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseDataType;
 import sqlancer.oceanbase.ast.OceanBaseAggregate;
 import sqlancer.oceanbase.ast.OceanBaseBinaryComparisonOperation;

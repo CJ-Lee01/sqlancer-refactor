@@ -1,10 +1,10 @@
 package sqlancer.reducer.VirtualDB;
 
 import com.google.auto.service.AutoService;
-import sqlancer.DatabaseProvider;
-import sqlancer.Reproducer;
-import sqlancer.SQLConnection;
-import sqlancer.SQLProviderAdapter;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.Reproducer;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.SQLProviderAdapter;
 
 @AutoService(DatabaseProvider.class)
 public class VirtualDBProvider extends SQLProviderAdapter<VirtualDBGlobalState, VirtualDBOptions> {

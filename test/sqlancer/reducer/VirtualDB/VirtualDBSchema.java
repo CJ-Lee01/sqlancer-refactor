@@ -1,9 +1,9 @@
 package sqlancer.reducer.VirtualDB;
 
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTable;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTable;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.TableIndex;
 import sqlancer.reducer.VirtualDB.VirtualDBSchema.VirtualDBTable;
 
 import java.util.List;

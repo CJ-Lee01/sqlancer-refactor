@@ -8,12 +8,12 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.gen.ExpressionGenerator;
-import sqlancer.common.gen.NoRECGenerator;
-import sqlancer.common.gen.TLPWhereGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.ExpressionGenerator;
+import sqlancer.base.common.gen.NoRECGenerator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 import sqlancer.yugabyte.ysql.YSQLCompoundDataType;
 import sqlancer.yugabyte.ysql.YSQLGlobalState;
 import sqlancer.yugabyte.ysql.YSQLProvider;

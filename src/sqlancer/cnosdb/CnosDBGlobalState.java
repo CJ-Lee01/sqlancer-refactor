@@ -1,9 +1,9 @@
 package sqlancer.cnosdb;
 
-import sqlancer.ExecutionTimer;
-import sqlancer.GlobalState;
+import sqlancer.base.ExecutionTimer;
+import sqlancer.base.GlobalState;
 import sqlancer.cnosdb.client.CnosDBConnection;
-import sqlancer.common.query.Query;
+import sqlancer.base.common.query.Query;
 
 public class CnosDBGlobalState extends GlobalState<CnosDBOptions, CnosDBSchema, CnosDBConnection> {
 

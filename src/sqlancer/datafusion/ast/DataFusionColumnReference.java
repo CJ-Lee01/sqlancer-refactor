@@ -1,6 +1,6 @@
 package sqlancer.datafusion.ast;
 
-import sqlancer.common.ast.newast.ColumnReferenceNode;
+import sqlancer.base.common.ast.newast.ColumnReferenceNode;
 import sqlancer.datafusion.DataFusionSchema;
 
 public class DataFusionColumnReference extends

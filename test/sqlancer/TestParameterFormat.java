@@ -11,6 +11,9 @@ import org.junit.jupiter.api.Test;
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.JCommander.Builder;
 import com.beust.jcommander.ParameterDescription;
+import sqlancer.base.DatabaseProvider;
+import sqlancer.base.Main;
+import sqlancer.base.MainOptions;
 
 /**
  * Check that consistent option names are used (those that are displayed when launcing SQLancer without options).

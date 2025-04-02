@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.citus.CitusGlobalState;
 import sqlancer.citus.CitusSchema.CitusTable;
 import sqlancer.citus.gen.CitusCommon;

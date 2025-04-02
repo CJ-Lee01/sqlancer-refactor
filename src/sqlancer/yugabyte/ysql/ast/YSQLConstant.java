@@ -2,7 +2,7 @@ package sqlancer.yugabyte.ysql.ast;
 
 import java.math.BigDecimal;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 
 public abstract class YSQLConstant implements YSQLExpression {

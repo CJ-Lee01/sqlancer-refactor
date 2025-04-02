@@ -1,7 +1,7 @@
 package sqlancer.cnosdb.ast;
 
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
-import sqlancer.common.ast.BinaryNode;
+import sqlancer.base.common.ast.BinaryNode;
 
 public class CnosDBConcatOperation extends BinaryNode<CnosDBExpression> implements CnosDBExpression {
 

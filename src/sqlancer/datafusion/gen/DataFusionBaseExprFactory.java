@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.datafusion.DataFusionSchema.DataFusionDataType;
 import sqlancer.datafusion.gen.DataFusionBaseExpr.ArgumentType;
 import sqlancer.datafusion.gen.DataFusionBaseExpr.DataFusionBaseExprCategory;

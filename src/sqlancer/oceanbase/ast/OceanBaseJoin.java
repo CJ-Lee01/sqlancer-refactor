@@ -1,6 +1,6 @@
 package sqlancer.oceanbase.ast;
 
-import sqlancer.common.ast.newast.Join;
+import sqlancer.base.common.ast.newast.Join;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseColumn;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseTable;
 

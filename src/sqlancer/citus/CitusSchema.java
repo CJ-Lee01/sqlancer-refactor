@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.SQLConnection;
+import sqlancer.base.SQLConnection;
 import sqlancer.postgres.PostgresSchema;
 
 public class CitusSchema extends PostgresSchema {

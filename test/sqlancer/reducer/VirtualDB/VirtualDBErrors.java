@@ -1,6 +1,6 @@
 package sqlancer.reducer.VirtualDB;
 
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.common.query.ExpectedErrors;
 
 public final class VirtualDBErrors {
     public VirtualDBErrors() {

@@ -2,10 +2,10 @@ package sqlancer.h2;
 
 import java.sql.SQLException;
 
-import sqlancer.OracleFactory;
-import sqlancer.common.oracle.TLPWhereOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.OracleFactory;
+import sqlancer.base.common.oracle.TLPWhereOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
 
 public enum H2OracleFactory implements OracleFactory<H2Provider.H2GlobalState> {
 

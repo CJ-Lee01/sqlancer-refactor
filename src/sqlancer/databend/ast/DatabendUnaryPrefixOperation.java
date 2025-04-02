@@ -1,8 +1,8 @@
 package sqlancer.databend.ast;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPrefixOperatorNode;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPrefixOperatorNode;
 import sqlancer.databend.DatabendSchema.DatabendDataType;
 
 public class DatabendUnaryPrefixOperation extends NewUnaryPrefixOperatorNode<DatabendExpression>

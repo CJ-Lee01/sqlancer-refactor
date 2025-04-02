@@ -2,7 +2,7 @@ package sqlancer.doris.ast;
 
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class DorisAggregateOperation extends DorisFunction<DorisAggregateOperation.DorisAggregateFunction>
         implements DorisExpression {

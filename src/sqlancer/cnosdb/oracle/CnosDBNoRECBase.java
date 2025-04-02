@@ -1,10 +1,10 @@
 package sqlancer.cnosdb.oracle;
 
-import sqlancer.Main;
-import sqlancer.MainOptions;
+import sqlancer.base.Main;
+import sqlancer.base.MainOptions;
 import sqlancer.cnosdb.CnosDBGlobalState;
 import sqlancer.cnosdb.client.CnosDBConnection;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.common.oracle.TestOracle;
 
 public abstract class CnosDBNoRECBase implements TestOracle<CnosDBGlobalState> {
     protected final CnosDBGlobalState state;

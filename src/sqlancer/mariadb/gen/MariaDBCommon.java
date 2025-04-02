@@ -1,6 +1,6 @@
 package sqlancer.mariadb.gen;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public final class MariaDBCommon {
 

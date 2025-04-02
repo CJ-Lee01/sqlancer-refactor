@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.NewOrderingTerm;
-import sqlancer.common.gen.NoRECGenerator;
-import sqlancer.common.gen.TLPWhereGenerator;
-import sqlancer.common.gen.TypedExpressionGenerator;
-import sqlancer.common.schema.AbstractTables;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.NewOrderingTerm;
+import sqlancer.base.common.gen.NoRECGenerator;
+import sqlancer.base.common.gen.TLPWhereGenerator;
+import sqlancer.base.common.gen.TypedExpressionGenerator;
+import sqlancer.base.common.schema.AbstractTables;
 import sqlancer.databend.DatabendBugs;
 import sqlancer.databend.DatabendProvider.DatabendGlobalState;
 import sqlancer.databend.DatabendSchema.DatabendColumn;

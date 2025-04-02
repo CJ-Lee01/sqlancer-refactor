@@ -1,6 +1,6 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 
 public class MaterializeOrderByTerm implements MaterializeExpression {

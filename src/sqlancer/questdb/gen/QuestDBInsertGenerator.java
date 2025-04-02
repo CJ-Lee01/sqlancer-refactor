@@ -3,10 +3,10 @@ package sqlancer.questdb.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.common.gen.AbstractInsertGenerator;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
-import sqlancer.common.schema.AbstractTableColumn;
+import sqlancer.base.common.gen.AbstractInsertGenerator;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
+import sqlancer.base.common.schema.AbstractTableColumn;
 import sqlancer.questdb.QuestDBErrors;
 import sqlancer.questdb.QuestDBProvider.QuestDBGlobalState;
 import sqlancer.questdb.QuestDBSchema.QuestDBColumn;

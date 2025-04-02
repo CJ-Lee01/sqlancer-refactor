@@ -3,8 +3,8 @@ package sqlancer.oceanbase.gen;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
 import sqlancer.oceanbase.OceanBaseSchema;
 import sqlancer.oceanbase.OceanBaseSchema.OceanBaseTable;
 import sqlancer.oceanbase.ast.OceanBaseConstant;

@@ -2,8 +2,8 @@ package sqlancer.yugabyte.ysql.gen;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.yugabyte.ysql.YSQLGlobalState;
 
 public final class YSQLTableGroupGenerator {

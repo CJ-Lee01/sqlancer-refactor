@@ -1,8 +1,8 @@
 package sqlancer.postgres.oracle;
 
-import sqlancer.Randomly;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.postgres.PostgresGlobalState;
 import sqlancer.postgres.PostgresVisitor;
 import sqlancer.postgres.gen.PostgresRandomQueryGenerator;

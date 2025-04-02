@@ -1,6 +1,6 @@
 package sqlancer.cnosdb;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.cnosdb.ast.CnosDBAggregate;
 import sqlancer.cnosdb.ast.CnosDBBetweenOperation;
 import sqlancer.cnosdb.ast.CnosDBBinaryLogicalOperation;
@@ -20,8 +20,8 @@ import sqlancer.cnosdb.ast.CnosDBSelect;
 import sqlancer.cnosdb.ast.CnosDBSelect.CnosDBFromTable;
 import sqlancer.cnosdb.ast.CnosDBSelect.CnosDBSubquery;
 import sqlancer.cnosdb.ast.CnosDBSimilarTo;
-import sqlancer.common.visitor.BinaryOperation;
-import sqlancer.common.visitor.ToStringVisitor;
+import sqlancer.base.common.visitor.BinaryOperation;
+import sqlancer.base.common.visitor.ToStringVisitor;
 
 public final class CnosDBToStringVisitor extends ToStringVisitor<CnosDBExpression> implements CnosDBVisitor {
 

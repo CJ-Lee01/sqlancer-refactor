@@ -4,8 +4,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.ComparatorHelper;
-import sqlancer.Randomly;
+import sqlancer.base.ComparatorHelper;
+import sqlancer.base.Randomly;
 import sqlancer.presto.PrestoErrors;
 import sqlancer.presto.PrestoGlobalState;
 import sqlancer.presto.PrestoToStringVisitor;

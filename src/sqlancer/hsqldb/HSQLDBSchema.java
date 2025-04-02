@@ -7,13 +7,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.common.DBMSCommon;
-import sqlancer.common.schema.AbstractRelationalTable;
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.common.DBMSCommon;
+import sqlancer.base.common.schema.AbstractRelationalTable;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.TableIndex;
 
 public class HSQLDBSchema extends AbstractSchema<HSQLDBProvider.HSQLDBGlobalState, HSQLDBSchema.HSQLDBTable> {
 

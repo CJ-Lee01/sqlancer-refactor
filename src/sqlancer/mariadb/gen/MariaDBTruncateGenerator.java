@@ -1,7 +1,7 @@
 package sqlancer.mariadb.gen;
 
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.mariadb.MariaDBErrors;
 import sqlancer.mariadb.MariaDBSchema;
 

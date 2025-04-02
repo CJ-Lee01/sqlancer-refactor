@@ -2,7 +2,7 @@ package sqlancer.datafusion;
 
 import java.util.List;
 
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.datafusion.ast.DataFusionConstant;
 import sqlancer.datafusion.ast.DataFusionExpression;
 import sqlancer.datafusion.ast.DataFusionJoin;

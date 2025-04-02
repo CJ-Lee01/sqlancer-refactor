@@ -1,8 +1,8 @@
 package sqlancer.tidb.gen;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.tidb.TiDBProvider.TiDBGlobalState;
 
 public final class TiDBDropViewGenerator {

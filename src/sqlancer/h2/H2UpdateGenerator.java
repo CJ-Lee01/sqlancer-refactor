@@ -2,9 +2,9 @@ package sqlancer.h2;
 
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.gen.AbstractUpdateGenerator;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.AbstractUpdateGenerator;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.h2.H2Provider.H2GlobalState;
 import sqlancer.h2.H2Schema.H2Column;
 import sqlancer.h2.H2Schema.H2Table;

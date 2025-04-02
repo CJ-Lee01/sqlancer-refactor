@@ -1,6 +1,6 @@
 package sqlancer.yugabyte.ysql.ast;
 
-import sqlancer.common.ast.BinaryNode;
+import sqlancer.base.common.ast.BinaryNode;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLDataType;
 
 public class YSQLConcatOperation extends BinaryNode<YSQLExpression> implements YSQLExpression {

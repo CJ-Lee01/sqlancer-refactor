@@ -3,7 +3,7 @@ package sqlancer.presto.ast;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.presto.PrestoSchema;
 import sqlancer.presto.gen.PrestoTypedExpressionGenerator;
 

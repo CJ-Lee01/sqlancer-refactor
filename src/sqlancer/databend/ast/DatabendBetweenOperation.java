@@ -1,6 +1,6 @@
 package sqlancer.databend.ast;
 
-import sqlancer.common.ast.newast.NewBetweenOperatorNode;
+import sqlancer.base.common.ast.newast.NewBetweenOperatorNode;
 import sqlancer.databend.DatabendSchema;
 
 public class DatabendBetweenOperation extends NewBetweenOperatorNode<DatabendExpression> implements DatabendExpression {

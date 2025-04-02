@@ -1,6 +1,6 @@
 package sqlancer.questdb.ast;
 
-import sqlancer.common.ast.newast.ColumnReferenceNode;
+import sqlancer.base.common.ast.newast.ColumnReferenceNode;
 import sqlancer.questdb.QuestDBSchema;
 
 public class QuestDBColumnReference extends ColumnReferenceNode<QuestDBExpression, QuestDBSchema.QuestDBColumn>

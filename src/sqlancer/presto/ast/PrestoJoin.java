@@ -3,8 +3,8 @@ package sqlancer.presto.ast;
 import java.util.ArrayList;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.Join;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.Join;
 import sqlancer.presto.PrestoGlobalState;
 import sqlancer.presto.PrestoSchema;
 import sqlancer.presto.PrestoSchema.PrestoColumn;

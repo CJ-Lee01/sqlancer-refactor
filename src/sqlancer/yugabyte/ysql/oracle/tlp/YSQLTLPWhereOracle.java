@@ -2,10 +2,10 @@ package sqlancer.yugabyte.ysql.oracle.tlp;
 
 import java.sql.SQLException;
 
-import sqlancer.Reproducer;
-import sqlancer.common.oracle.TLPWhereOracle;
-import sqlancer.common.oracle.TestOracle;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.Reproducer;
+import sqlancer.base.common.oracle.TLPWhereOracle;
+import sqlancer.base.common.oracle.TestOracle;
+import sqlancer.base.common.query.ExpectedErrors;
 import sqlancer.yugabyte.ysql.YSQLErrors;
 import sqlancer.yugabyte.ysql.YSQLGlobalState;
 import sqlancer.yugabyte.ysql.YSQLSchema;

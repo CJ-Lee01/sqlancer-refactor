@@ -1,9 +1,9 @@
 package sqlancer.cnosdb.query;
 
-import sqlancer.GlobalState;
-import sqlancer.IgnoreMeException;
+import sqlancer.base.GlobalState;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.cnosdb.client.CnosDBConnection;
-import sqlancer.common.query.ExpectedErrors;
+import sqlancer.base.common.query.ExpectedErrors;
 
 public class CnosDBOtherQuery extends CnosDBQueryAdapter {
     public CnosDBOtherQuery(String query, ExpectedErrors errors) {

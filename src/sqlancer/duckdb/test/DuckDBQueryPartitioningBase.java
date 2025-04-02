@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.Randomly;
-import sqlancer.common.gen.ExpressionGenerator;
-import sqlancer.common.oracle.TernaryLogicPartitioningOracleBase;
-import sqlancer.common.oracle.TestOracle;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.ExpressionGenerator;
+import sqlancer.base.common.oracle.TernaryLogicPartitioningOracleBase;
+import sqlancer.base.common.oracle.TestOracle;
 import sqlancer.duckdb.DuckDBErrors;
 import sqlancer.duckdb.DuckDBProvider.DuckDBGlobalState;
 import sqlancer.duckdb.DuckDBSchema;

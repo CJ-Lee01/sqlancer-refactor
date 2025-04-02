@@ -5,8 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import sqlancer.ComparatorHelper;
-import sqlancer.Randomly;
+import sqlancer.base.ComparatorHelper;
+import sqlancer.base.Randomly;
 import sqlancer.duckdb.DuckDBErrors;
 import sqlancer.duckdb.DuckDBProvider.DuckDBGlobalState;
 import sqlancer.duckdb.DuckDBToStringVisitor;

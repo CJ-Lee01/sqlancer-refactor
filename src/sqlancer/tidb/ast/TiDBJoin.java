@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.ast.newast.Join;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.newast.Join;
 import sqlancer.tidb.TiDBExpressionGenerator;
 import sqlancer.tidb.TiDBProvider.TiDBGlobalState;
 import sqlancer.tidb.TiDBSchema.TiDBColumn;

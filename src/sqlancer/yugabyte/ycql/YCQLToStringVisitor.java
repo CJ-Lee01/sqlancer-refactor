@@ -1,6 +1,6 @@
 package sqlancer.yugabyte.ycql;
 
-import sqlancer.common.ast.newast.NewToStringVisitor;
+import sqlancer.base.common.ast.newast.NewToStringVisitor;
 import sqlancer.yugabyte.ycql.ast.YCQLConstant;
 import sqlancer.yugabyte.ycql.ast.YCQLExpression;
 import sqlancer.yugabyte.ycql.ast.YCQLSelect;

@@ -6,7 +6,7 @@ import java.util.List;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 
-import sqlancer.DBMSSpecificOptions;
+import sqlancer.base.DBMSSpecificOptions;
 
 @Parameters(separators = "=", commandDescription = "Materialize (default port: " + MaterializeOptions.DEFAULT_PORT
         + ", default host: " + MaterializeOptions.DEFAULT_HOST + ", default user: " + MaterializeOptions.DEFAULT_USER

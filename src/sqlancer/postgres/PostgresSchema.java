@@ -12,16 +12,16 @@ import java.util.Map;
 
 import org.postgresql.util.PSQLException;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.SQLConnection;
-import sqlancer.common.DBMSCommon;
-import sqlancer.common.schema.AbstractRelationalTable;
-import sqlancer.common.schema.AbstractRowValue;
-import sqlancer.common.schema.AbstractSchema;
-import sqlancer.common.schema.AbstractTableColumn;
-import sqlancer.common.schema.AbstractTables;
-import sqlancer.common.schema.TableIndex;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.common.DBMSCommon;
+import sqlancer.base.common.schema.AbstractRelationalTable;
+import sqlancer.base.common.schema.AbstractRowValue;
+import sqlancer.base.common.schema.AbstractSchema;
+import sqlancer.base.common.schema.AbstractTableColumn;
+import sqlancer.base.common.schema.AbstractTables;
+import sqlancer.base.common.schema.TableIndex;
 import sqlancer.postgres.PostgresSchema.PostgresTable;
 import sqlancer.postgres.PostgresSchema.PostgresTable.TableType;
 import sqlancer.postgres.ast.PostgresConstant;

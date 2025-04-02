@@ -2,7 +2,7 @@ package sqlancer.presto.ast;
 
 import java.util.ArrayList;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.presto.PrestoSchema;
 import sqlancer.presto.PrestoSchema.PrestoCompositeDataType;
 import sqlancer.presto.PrestoSchema.PrestoDataType;

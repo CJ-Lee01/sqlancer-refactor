@@ -1,9 +1,9 @@
 package sqlancer.oceanbase.ast;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.Randomly;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
-import sqlancer.common.ast.UnaryOperatorNode;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.common.ast.UnaryOperatorNode;
 import sqlancer.oceanbase.ast.OceanBaseUnaryPrefixOperation.OceanBaseUnaryPrefixOperator;
 
 public class OceanBaseUnaryPrefixOperation extends UnaryOperatorNode<OceanBaseExpression, OceanBaseUnaryPrefixOperator>

@@ -1,6 +1,6 @@
 package sqlancer.questdb.ast;
 
-import sqlancer.common.ast.SelectBase;
+import sqlancer.base.common.ast.SelectBase;
 
 public class QuestDBSelect extends SelectBase<QuestDBExpression> implements QuestDBExpression {
     private boolean isDistinct;

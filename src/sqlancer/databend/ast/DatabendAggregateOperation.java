@@ -2,7 +2,7 @@ package sqlancer.databend.ast;
 
 import java.util.List;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 import sqlancer.databend.DatabendSchema;
 
 public class DatabendAggregateOperation extends

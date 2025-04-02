@@ -1,8 +1,8 @@
 package sqlancer.cnosdb.query;
 
 import sqlancer.cnosdb.client.CnosDBConnection;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.Query;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.Query;
 
 public abstract class CnosDBQueryAdapter extends Query<CnosDBConnection> {
 

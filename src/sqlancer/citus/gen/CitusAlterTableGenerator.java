@@ -2,9 +2,9 @@ package sqlancer.citus.gen;
 
 import java.util.List;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.postgres.PostgresGlobalState;
 import sqlancer.postgres.PostgresSchema.PostgresTable;
 import sqlancer.postgres.gen.PostgresAlterTableGenerator;

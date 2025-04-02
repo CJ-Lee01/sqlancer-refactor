@@ -3,9 +3,9 @@ package sqlancer.postgres;
 import java.util.List;
 import java.util.Optional;
 
-import sqlancer.Randomly;
-import sqlancer.common.visitor.BinaryOperation;
-import sqlancer.common.visitor.ToStringVisitor;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.visitor.BinaryOperation;
+import sqlancer.base.common.visitor.ToStringVisitor;
 import sqlancer.postgres.PostgresSchema.PostgresDataType;
 import sqlancer.postgres.ast.PostgresAggregate;
 import sqlancer.postgres.ast.PostgresBetweenOperation;

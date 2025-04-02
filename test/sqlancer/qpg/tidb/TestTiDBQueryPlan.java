@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 import org.junit.jupiter.api.Test;
 
-import sqlancer.Main;
-import sqlancer.MainOptions;
-import sqlancer.SQLConnection;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Main;
+import sqlancer.base.MainOptions;
+import sqlancer.base.SQLConnection;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.tidb.TiDBOptions;
 import sqlancer.tidb.TiDBProvider;
 import sqlancer.tidb.TiDBProvider.TiDBGlobalState;

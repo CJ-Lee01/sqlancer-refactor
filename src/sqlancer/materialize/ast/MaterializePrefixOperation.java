@@ -1,7 +1,7 @@
 package sqlancer.materialize.ast;
 
-import sqlancer.IgnoreMeException;
-import sqlancer.common.ast.BinaryOperatorNode.Operator;
+import sqlancer.base.IgnoreMeException;
+import sqlancer.base.common.ast.BinaryOperatorNode.Operator;
 import sqlancer.materialize.MaterializeSchema.MaterializeDataType;
 
 public class MaterializePrefixOperation implements MaterializeExpression {

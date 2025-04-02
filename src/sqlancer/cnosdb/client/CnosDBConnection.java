@@ -2,7 +2,7 @@ package sqlancer.cnosdb.client;
 
 import java.io.IOException;
 
-import sqlancer.SQLancerDBConnection;
+import sqlancer.base.SQLancerDBConnection;
 
 public class CnosDBConnection implements SQLancerDBConnection {
     private final CnosDBClient client;

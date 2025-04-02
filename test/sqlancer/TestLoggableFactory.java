@@ -1,8 +1,8 @@
 package sqlancer;
 
 import org.junit.jupiter.api.Test;
-import sqlancer.common.log.SQLLoggableFactory;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.common.log.SQLLoggableFactory;
+import sqlancer.base.common.query.SQLQueryAdapter;
 
 public class TestLoggableFactory {
 

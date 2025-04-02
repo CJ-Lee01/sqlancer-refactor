@@ -3,9 +3,9 @@ package sqlancer.yugabyte.ysql.gen;
 import java.util.Arrays;
 import java.util.List;
 
-import sqlancer.Randomly;
-import sqlancer.common.gen.AbstractUpdateGenerator;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.gen.AbstractUpdateGenerator;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.yugabyte.ysql.YSQLErrors;
 import sqlancer.yugabyte.ysql.YSQLGlobalState;
 import sqlancer.yugabyte.ysql.YSQLSchema.YSQLColumn;

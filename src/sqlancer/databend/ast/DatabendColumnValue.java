@@ -1,6 +1,6 @@
 package sqlancer.databend.ast;
 
-import sqlancer.common.ast.newast.ColumnReferenceNode;
+import sqlancer.base.common.ast.newast.ColumnReferenceNode;
 import sqlancer.databend.DatabendSchema.DatabendColumn;
 import sqlancer.databend.DatabendSchema.DatabendDataType;
 

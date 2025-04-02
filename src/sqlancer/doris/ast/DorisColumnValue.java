@@ -2,7 +2,7 @@ package sqlancer.doris.ast;
 
 import java.util.Objects;
 
-import sqlancer.common.ast.newast.ColumnReferenceNode;
+import sqlancer.base.common.ast.newast.ColumnReferenceNode;
 import sqlancer.doris.DorisSchema.DorisColumn;
 import sqlancer.doris.DorisSchema.DorisDataType;
 

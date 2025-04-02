@@ -1,6 +1,6 @@
 package sqlancer.mariadb.ast;
 
-import sqlancer.Randomly;
+import sqlancer.base.Randomly;
 
 public class MariaDBUnaryPrefixOperation implements MariaDBExpression {
 

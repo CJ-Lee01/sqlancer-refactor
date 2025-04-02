@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Nullable;
 
-import sqlancer.Randomly;
-import sqlancer.common.query.ExpectedErrors;
-import sqlancer.common.query.SQLQueryAdapter;
+import sqlancer.base.Randomly;
+import sqlancer.base.common.query.ExpectedErrors;
+import sqlancer.base.common.query.SQLQueryAdapter;
 import sqlancer.hsqldb.HSQLDBProvider;
 import sqlancer.hsqldb.HSQLDBSchema;
 

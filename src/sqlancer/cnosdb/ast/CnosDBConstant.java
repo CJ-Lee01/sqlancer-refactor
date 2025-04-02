@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import sqlancer.IgnoreMeException;
+import sqlancer.base.IgnoreMeException;
 import sqlancer.cnosdb.CnosDBSchema.CnosDBDataType;
 
 public abstract class CnosDBConstant implements CnosDBExpression {

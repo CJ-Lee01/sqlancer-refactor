@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import org.junit.jupiter.api.Test;
 
-import sqlancer.Main;
+import sqlancer.base.Main;
 import sqlancer.dbms.TestConfig;
 
 public class TestPostgresQPG {

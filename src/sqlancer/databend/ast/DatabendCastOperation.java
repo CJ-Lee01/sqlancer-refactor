@@ -1,7 +1,7 @@
 package sqlancer.databend.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPostfixOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPostfixOperatorNode;
 import sqlancer.databend.DatabendSchema.DatabendCompositeDataType;
 import sqlancer.databend.DatabendSchema.DatabendDataType;
 

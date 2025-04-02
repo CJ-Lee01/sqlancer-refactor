@@ -1,6 +1,6 @@
 package sqlancer.yugabyte.ycql.ast;
 
-import sqlancer.common.ast.newast.TableReferenceNode;
+import sqlancer.base.common.ast.newast.TableReferenceNode;
 import sqlancer.yugabyte.ycql.YCQLSchema;
 
 public class YCQLTableReference extends TableReferenceNode<YCQLExpression, YCQLSchema.YCQLTable>

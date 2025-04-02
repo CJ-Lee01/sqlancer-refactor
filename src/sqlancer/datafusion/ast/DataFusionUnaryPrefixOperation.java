@@ -1,7 +1,7 @@
 package sqlancer.datafusion.ast;
 
-import sqlancer.common.ast.BinaryOperatorNode;
-import sqlancer.common.ast.newast.NewUnaryPrefixOperatorNode;
+import sqlancer.base.common.ast.BinaryOperatorNode;
+import sqlancer.base.common.ast.newast.NewUnaryPrefixOperatorNode;
 
 public class DataFusionUnaryPrefixOperation extends NewUnaryPrefixOperatorNode<DataFusionExpression>
         implements DataFusionExpression {
