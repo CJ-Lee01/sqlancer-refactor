@@ -4,7 +4,7 @@ This repository is not meant to be used for typical sqlancer use, but meant as a
 
 The goal is to break down the monolithic project into multiple submodules.
 
-For using SQLancer, check the upstream repository at [sqlancer.com](sqlancer.com) (yes it is a github link.)
+For using SQLancer, check the upstream repository at [sqlancer.com](https://www.sqlancer.com) (yes it is a github link.)
 
 ## Project Structure explained
 
